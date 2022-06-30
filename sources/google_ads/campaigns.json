@@ -1,265 +1,373 @@
 {
-  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "campaign.accessible_bidding_strategy": {
-      "type": ["null", "string"]
-    },
-    "campaign.ad_serving_optimization_status": {
-      "type": ["null", "string"]
-    },
-    "campaign.advertising_channel_sub_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.advertising_channel_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.app_campaign_setting.app_id": {
-      "type": ["null", "string"]
-    },
-    "campaign.app_campaign_setting.app_store": {
-      "type": ["null", "string"]
-    },
-    "campaign.app_campaign_setting.bidding_strategy_goal_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.base_campaign": {
-      "type": ["null", "string"]
-    },
-    "campaign.bidding_strategy": {
-      "type": ["null", "string"]
-    },
-    "campaign.bidding_strategy_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.campaign_budget": {
-      "type": ["null", "string"]
-    },
-    "campaign_budget.amount_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.commission.commission_rate_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.dynamic_search_ads_setting.domain_name": {
-      "type": ["null", "string"]
-    },
-    "campaign.dynamic_search_ads_setting.feeds": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.dynamic_search_ads_setting.language_code": {
-      "type": ["null", "string"]
-    },
-    "campaign.dynamic_search_ads_setting.use_supplied_urls_only": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.end_date": {
-      "type": ["null", "string"]
-    },
-    "campaign.excluded_parent_asset_field_types": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.experiment_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.final_url_suffix": {
-      "type": ["null", "string"]
-    },
-    "campaign.frequency_caps": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.geo_target_type_setting.negative_geo_target_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.geo_target_type_setting.positive_geo_target_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.hotel_setting.hotel_center_id": {
-      "type": ["null", "integer"]
-    },
-    "campaign.id": {
-      "type": ["null", "integer"]
-    },
-    "campaign.labels": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.local_campaign_setting.location_source_type": {
-      "type": ["null", "string"]
-    },
-    "campaign.manual_cpc.enhanced_cpc_enabled": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.manual_cpm": {
-      "type": ["null", "string"]
-    },
-    "campaign.manual_cpv": {
-      "type": ["null", "string"]
-    },
-    "campaign.maximize_conversion_value.target_roas": {
-      "type": ["null", "number"]
-    },
-    "campaign.maximize_conversions.target_cpa": {
-      "type": ["null", "integer"]
-    },
-    "campaign.name": {
-      "type": ["null", "string"]
-    },
-    "campaign.network_settings.target_content_network": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.network_settings.target_google_search": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.network_settings.target_partner_search_network": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.network_settings.target_search_network": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.optimization_goal_setting.optimization_goal_types": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.optimization_score": {
-      "type": ["null", "number"]
-    },
-    "campaign.payment_mode": {
-      "type": ["null", "string"]
-    },
-    "campaign.percent_cpc.cpc_bid_ceiling_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.percent_cpc.enhanced_cpc_enabled": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.real_time_bidding_setting.opt_in": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.resource_name": {
-      "type": ["null", "string"]
-    },
-    "campaign.selective_optimization.conversion_actions": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.serving_status": {
-      "type": ["null", "string"]
-    },
-    "campaign.shopping_setting.campaign_priority": {
-      "type": ["null", "integer"]
-    },
-    "campaign.shopping_setting.enable_local": {
-      "type": ["null", "boolean"]
-    },
-    "campaign.shopping_setting.merchant_id": {
-      "type": ["null", "integer"]
-    },
-    "campaign.shopping_setting.sales_country": {
-      "type": ["null", "string"]
-    },
-    "campaign.start_date": {
-      "type": ["null", "string"]
-    },
-    "campaign.status": {
-      "type": ["null", "string"]
-    },
-    "campaign.target_cpa.cpc_bid_ceiling_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_cpa.cpc_bid_floor_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_cpa.target_cpa_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_cpm": {
-      "type": ["null", "string"]
-    },
-    "campaign.target_impression_share.cpc_bid_ceiling_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_impression_share.location": {
-      "type": ["null", "string"]
-    },
-    "campaign.target_impression_share.location_fraction_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_roas.cpc_bid_ceiling_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_roas.cpc_bid_floor_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_roas.target_roas": {
-      "type": ["null", "number"]
-    },
-    "campaign.target_spend.cpc_bid_ceiling_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.target_spend.target_spend_micros": {
-      "type": ["null", "integer"]
-    },
-    "campaign.targeting_setting.target_restrictions": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.tracking_setting.tracking_url": {
-      "type": ["null", "string"]
-    },
-    "campaign.tracking_url_template": {
-      "type": ["null", "string"]
-    },
-    "campaign.url_custom_parameters": {
-      "type": ["null", "array"],
-      "items": {
-        "type": "string"
-      }
-    },
-    "campaign.vanity_pharma.vanity_pharma_display_url_mode": {
-      "type": ["null", "string"]
-    },
-    "campaign.vanity_pharma.vanity_pharma_text": {
-      "type": ["null", "string"]
-    },
-    "campaign.video_brand_safety_suitability": {
-      "type": ["null", "string"]
-    },
-    "metrics.clicks": {
-      "type": ["null", "integer"]
-    },
-    "metrics.cost_micros": {
-      "type": ["null", "integer"]
-    },
-    "metrics.impressions": {
-      "type": ["null", "number"]
-    },
-    "metrics.video_views": {
-      "type": ["null", "number"]
-    },
-    "metrics.video_quartile_p100_rate": {
-      "type": ["null", "number"]
-    },
-    "segments.date": {
-      "type": ["null", "string"],
-      "format": "date"
+    "customer": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "descriptiveName": {
+          "type": "string"
+        },
+        "currencyCode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "descriptiveName",
+        "currencyCode"
+      ]
+    },
+    "campaign": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "adServingOptimizationStatus": {
+          "type": "string"
+        },
+        "advertisingChannelType": {
+          "type": "string"
+        },
+        "experimentType": {
+          "type": "string"
+        },
+        "servingStatus": {
+          "type": "string"
+        },
+        "biddingStrategyType": {
+          "type": "string"
+        },
+        "paymentMode": {
+          "type": "string"
+        },
+        "baseCampaign": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "campaignBudget": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "optimizationScore": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "resourceName",
+        "status",
+        "adServingOptimizationStatus",
+        "advertisingChannelType",
+        "experimentType",
+        "servingStatus",
+        "biddingStrategyType",
+        "paymentMode",
+        "baseCampaign",
+        "name",
+        "id",
+        "campaignBudget",
+        "startDate",
+        "endDate",
+        "optimizationScore"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "interactionEventTypes": {
+          "type": "array",
+          "items": [
+            {
+              "type": "string"
+            }
+          ]
+        },
+        "clicks": {
+          "type": "string"
+        },
+        "searchAbsoluteTopImpressionShare": {
+          "type": "number"
+        },
+        "searchBudgetLostAbsoluteTopImpressionShare": {
+          "type": "integer"
+        },
+        "searchBudgetLostImpressionShare": {
+          "type": "integer"
+        },
+        "searchBudgetLostTopImpressionShare": {
+          "type": "integer"
+        },
+        "searchClickShare": {
+          "type": "number"
+        },
+        "searchExactMatchImpressionShare": {
+          "type": "number"
+        },
+        "searchImpressionShare": {
+          "type": "number"
+        },
+        "searchRankLostAbsoluteTopImpressionShare": {
+          "type": "number"
+        },
+        "searchRankLostImpressionShare": {
+          "type": "number"
+        },
+        "searchRankLostTopImpressionShare": {
+          "type": "number"
+        },
+        "searchTopImpressionShare": {
+          "type": "number"
+        },
+        "topImpressionPercentage": {
+          "type": "number"
+        },
+        "valuePerAllConversions": {
+          "type": "integer"
+        },
+        "valuePerConversion": {
+          "type": "integer"
+        },
+        "valuePerCurrentModelAttributedConversion": {
+          "type": "integer"
+        },
+        "videoViews": {
+          "type": "string"
+        },
+        "viewThroughConversions": {
+          "type": "string"
+        },
+        "conversionsFromInteractionsRate": {
+          "type": "number"
+        },
+        "conversionsValue": {
+          "type": "integer"
+        },
+        "conversions": {
+          "type": "integer"
+        },
+        "costMicros": {
+          "type": "string"
+        },
+        "costPerAllConversions": {
+          "type": "integer"
+        },
+        "costPerConversion": {
+          "type": "integer"
+        },
+        "costPerCurrentModelAttributedConversion": {
+          "type": "integer"
+        },
+        "ctr": {
+          "type": "number"
+        },
+        "currentModelAttributedConversions": {
+          "type": "integer"
+        },
+        "currentModelAttributedConversionsFromInteractionsRate": {
+          "type": "number"
+        },
+        "currentModelAttributedConversionsFromInteractionsValuePerInteraction": {
+          "type": "integer"
+        },
+        "currentModelAttributedConversionsValue": {
+          "type": "integer"
+        },
+        "currentModelAttributedConversionsValuePerCost": {
+          "type": "integer"
+        },
+        "engagements": {
+          "type": "string"
+        },
+        "absoluteTopImpressionPercentage": {
+          "type": "number"
+        },
+        "activeViewImpressions": {
+          "type": "string"
+        },
+        "activeViewMeasurability": {
+          "type": "integer"
+        },
+        "activeViewMeasurableCostMicros": {
+          "type": "string"
+        },
+        "activeViewMeasurableImpressions": {
+          "type": "string"
+        },
+        "allConversionsFromInteractionsRate": {
+          "type": "number"
+        },
+        "allConversionsValue": {
+          "type": "integer"
+        },
+        "allConversions": {
+          "type": "integer"
+        },
+        "averageCost": {
+          "type": "number"
+        },
+        "averageCpc": {
+          "type": "number"
+        },
+        "averageCpm": {
+          "type": "number"
+        },
+        "averagePageViews": {
+          "type": "number"
+        },
+        "averageTimeOnSite": {
+          "type": "number"
+        },
+        "bounceRate": {
+          "type": "number"
+        },
+        "gmailForwards": {
+          "type": "string"
+        },
+        "gmailSaves": {
+          "type": "string"
+        },
+        "gmailSecondaryClicks": {
+          "type": "string"
+        },
+        "impressions": {
+          "type": "string"
+        },
+        "interactionRate": {
+          "type": "number"
+        },
+        "interactions": {
+          "type": "string"
+        },
+        "invalidClickRate": {
+          "type": "number"
+        },
+        "invalidClicks": {
+          "type": "string"
+        },
+        "percentNewVisitors": {
+          "type": "number"
+        },
+        "phoneCalls": {
+          "type": "string"
+        },
+        "phoneImpressions": {
+          "type": "string"
+        },
+        "allConversionsByConversionDate": {
+          "type": "integer"
+        },
+        "conversionsByConversionDate": {
+          "type": "integer"
+        },
+        "valuePerAllConversionsByConversionDate": {
+          "type": "integer"
+        },
+        "valuePerConversionsByConversionDate": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "interactionEventTypes",
+        "clicks",
+        "searchAbsoluteTopImpressionShare",
+        "searchBudgetLostAbsoluteTopImpressionShare",
+        "searchBudgetLostImpressionShare",
+        "searchBudgetLostTopImpressionShare",
+        "searchClickShare",
+        "searchExactMatchImpressionShare",
+        "searchImpressionShare",
+        "searchRankLostAbsoluteTopImpressionShare",
+        "searchRankLostImpressionShare",
+        "searchRankLostTopImpressionShare",
+        "searchTopImpressionShare",
+        "topImpressionPercentage",
+        "valuePerAllConversions",
+        "valuePerConversion",
+        "valuePerCurrentModelAttributedConversion",
+        "videoViews",
+        "viewThroughConversions",
+        "conversionsFromInteractionsRate",
+        "conversionsValue",
+        "conversions",
+        "costMicros",
+        "costPerAllConversions",
+        "costPerConversion",
+        "costPerCurrentModelAttributedConversion",
+        "ctr",
+        "currentModelAttributedConversions",
+        "currentModelAttributedConversionsFromInteractionsRate",
+        "currentModelAttributedConversionsFromInteractionsValuePerInteraction",
+        "currentModelAttributedConversionsValue",
+        "currentModelAttributedConversionsValuePerCost",
+        "engagements",
+        "absoluteTopImpressionPercentage",
+        "activeViewImpressions",
+        "activeViewMeasurability",
+        "activeViewMeasurableCostMicros",
+        "activeViewMeasurableImpressions",
+        "allConversionsFromInteractionsRate",
+        "allConversionsValue",
+        "allConversions",
+        "averageCost",
+        "averageCpc",
+        "averageCpm",
+        "averagePageViews",
+        "averageTimeOnSite",
+        "bounceRate",
+        "gmailForwards",
+        "gmailSaves",
+        "gmailSecondaryClicks",
+        "impressions",
+        "interactionRate",
+        "interactions",
+        "invalidClickRate",
+        "invalidClicks",
+        "percentNewVisitors",
+        "phoneCalls",
+        "phoneImpressions",
+        "allConversionsByConversionDate",
+        "conversionsByConversionDate",
+        "valuePerAllConversionsByConversionDate",
+        "valuePerConversionsByConversionDate"
+      ]
+    },
+    "segments": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "date"
+      ]
     }
-  }
+  },
+  "required": [
+    "customer",
+    "campaign",
+    "metrics",
+    "segments"
+  ]
 }
