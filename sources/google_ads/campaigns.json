@@ -34,25 +34,10 @@
         "status": {
           "type": "string"
         },
-        "adServingOptimizationStatus": {
-          "type": "string"
-        },
-        "advertisingChannelType": {
-          "type": "string"
-        },
-        "experimentType": {
-          "type": "string"
-        },
         "servingStatus": {
           "type": "string"
         },
         "biddingStrategyType": {
-          "type": "string"
-        },
-        "paymentMode": {
-          "type": "string"
-        },
-        "baseCampaign": {
           "type": "string"
         },
         "name": {
@@ -77,13 +62,8 @@
       "required": [
         "resourceName",
         "status",
-        "adServingOptimizationStatus",
-        "advertisingChannelType",
-        "experimentType",
         "servingStatus",
         "biddingStrategyType",
-        "paymentMode",
-        "baseCampaign",
         "name",
         "id",
         "campaignBudget",
@@ -95,52 +75,8 @@
     "metrics": {
       "type": "object",
       "properties": {
-        "interactionEventTypes": {
-          "type": "array",
-          "items": [
-            {
-              "type": "string"
-            }
-          ]
-        },
         "clicks": {
           "type": "string"
-        },
-        "searchAbsoluteTopImpressionShare": {
-          "type": "number"
-        },
-        "searchBudgetLostAbsoluteTopImpressionShare": {
-          "type": "integer"
-        },
-        "searchBudgetLostImpressionShare": {
-          "type": "integer"
-        },
-        "searchBudgetLostTopImpressionShare": {
-          "type": "integer"
-        },
-        "searchClickShare": {
-          "type": "number"
-        },
-        "searchExactMatchImpressionShare": {
-          "type": "number"
-        },
-        "searchImpressionShare": {
-          "type": "number"
-        },
-        "searchRankLostAbsoluteTopImpressionShare": {
-          "type": "number"
-        },
-        "searchRankLostImpressionShare": {
-          "type": "number"
-        },
-        "searchRankLostTopImpressionShare": {
-          "type": "number"
-        },
-        "searchTopImpressionShare": {
-          "type": "number"
-        },
-        "topImpressionPercentage": {
-          "type": "number"
         },
         "valuePerAllConversions": {
           "type": "integer"
@@ -148,26 +84,11 @@
         "valuePerConversion": {
           "type": "integer"
         },
-        "valuePerCurrentModelAttributedConversion": {
-          "type": "integer"
-        },
-        "videoViews": {
-          "type": "string"
-        },
-        "viewThroughConversions": {
-          "type": "string"
-        },
-        "conversionsFromInteractionsRate": {
-          "type": "number"
-        },
         "conversionsValue": {
           "type": "integer"
         },
         "conversions": {
           "type": "integer"
-        },
-        "costMicros": {
-          "type": "string"
         },
         "costPerAllConversions": {
           "type": "integer"
@@ -175,43 +96,10 @@
         "costPerConversion": {
           "type": "integer"
         },
-        "costPerCurrentModelAttributedConversion": {
-          "type": "integer"
-        },
         "ctr": {
           "type": "number"
         },
-        "currentModelAttributedConversions": {
-          "type": "integer"
-        },
-        "currentModelAttributedConversionsFromInteractionsRate": {
-          "type": "number"
-        },
-        "currentModelAttributedConversionsFromInteractionsValuePerInteraction": {
-          "type": "integer"
-        },
-        "currentModelAttributedConversionsValue": {
-          "type": "integer"
-        },
-        "currentModelAttributedConversionsValuePerCost": {
-          "type": "integer"
-        },
         "engagements": {
-          "type": "string"
-        },
-        "absoluteTopImpressionPercentage": {
-          "type": "number"
-        },
-        "activeViewImpressions": {
-          "type": "string"
-        },
-        "activeViewMeasurability": {
-          "type": "integer"
-        },
-        "activeViewMeasurableCostMicros": {
-          "type": "string"
-        },
-        "activeViewMeasurableImpressions": {
           "type": "string"
         },
         "allConversionsFromInteractionsRate": {
@@ -241,91 +129,23 @@
         "bounceRate": {
           "type": "number"
         },
-        "gmailForwards": {
-          "type": "string"
-        },
-        "gmailSaves": {
-          "type": "string"
-        },
-        "gmailSecondaryClicks": {
-          "type": "string"
-        },
         "impressions": {
           "type": "string"
         },
-        "interactionRate": {
-          "type": "number"
-        },
         "interactions": {
           "type": "string"
-        },
-        "invalidClickRate": {
-          "type": "number"
-        },
-        "invalidClicks": {
-          "type": "string"
-        },
-        "percentNewVisitors": {
-          "type": "number"
-        },
-        "phoneCalls": {
-          "type": "string"
-        },
-        "phoneImpressions": {
-          "type": "string"
-        },
-        "allConversionsByConversionDate": {
-          "type": "integer"
-        },
-        "conversionsByConversionDate": {
-          "type": "integer"
-        },
-        "valuePerAllConversionsByConversionDate": {
-          "type": "integer"
-        },
-        "valuePerConversionsByConversionDate": {
-          "type": "integer"
         }
       },
       "required": [
-        "interactionEventTypes",
         "clicks",
-        "searchAbsoluteTopImpressionShare",
-        "searchBudgetLostAbsoluteTopImpressionShare",
-        "searchBudgetLostImpressionShare",
-        "searchBudgetLostTopImpressionShare",
-        "searchClickShare",
-        "searchExactMatchImpressionShare",
-        "searchImpressionShare",
-        "searchRankLostAbsoluteTopImpressionShare",
-        "searchRankLostImpressionShare",
-        "searchRankLostTopImpressionShare",
-        "searchTopImpressionShare",
-        "topImpressionPercentage",
         "valuePerAllConversions",
         "valuePerConversion",
-        "valuePerCurrentModelAttributedConversion",
-        "videoViews",
-        "viewThroughConversions",
-        "conversionsFromInteractionsRate",
         "conversionsValue",
         "conversions",
-        "costMicros",
         "costPerAllConversions",
         "costPerConversion",
-        "costPerCurrentModelAttributedConversion",
         "ctr",
-        "currentModelAttributedConversions",
-        "currentModelAttributedConversionsFromInteractionsRate",
-        "currentModelAttributedConversionsFromInteractionsValuePerInteraction",
-        "currentModelAttributedConversionsValue",
-        "currentModelAttributedConversionsValuePerCost",
         "engagements",
-        "absoluteTopImpressionPercentage",
-        "activeViewImpressions",
-        "activeViewMeasurability",
-        "activeViewMeasurableCostMicros",
-        "activeViewMeasurableImpressions",
         "allConversionsFromInteractionsRate",
         "allConversionsValue",
         "allConversions",
@@ -335,21 +155,8 @@
         "averagePageViews",
         "averageTimeOnSite",
         "bounceRate",
-        "gmailForwards",
-        "gmailSaves",
-        "gmailSecondaryClicks",
         "impressions",
-        "interactionRate",
-        "interactions",
-        "invalidClickRate",
-        "invalidClicks",
-        "percentNewVisitors",
-        "phoneCalls",
-        "phoneImpressions",
-        "allConversionsByConversionDate",
-        "conversionsByConversionDate",
-        "valuePerAllConversionsByConversionDate",
-        "valuePerConversionsByConversionDate"
+        "interactions"
       ]
     },
     "segments": {
