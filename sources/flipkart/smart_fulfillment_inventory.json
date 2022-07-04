@@ -1,0 +1,32 @@
+{
+    "type": "object",
+    "properties": {
+        "listing-id": {
+            "type": ["null", "string"]
+        },
+        "fsn": {
+            "type": ["null", "string"]
+        },
+        "sku": {
+            "type": ["null", "string"]
+        },
+        "sellable-units": {
+            "type": ["null", "integer"]
+        },
+        "reserved-units": {
+            "type": ["null", "integer"]
+        },
+        "total-units": {
+            "type": ["null", "integer"]
+        },
+        "listing-status": {
+            "type": ["null", "string"]
+        },
+        "fulfilled-via-seller-smart": {
+            "type": ["null", "string"]
+        },
+        "f-assured": {
+            "type": ["null", "string"]
+        }
+    }
+}
