@@ -1,0 +1,67 @@
+ {
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"type": "array",
+	"items": [{
+		"type": "object",
+		"properties": {
+			"Sku": {
+				"type": "string"
+			},
+			"Title": {
+				"type": "string"
+			},
+			"Listing Id": {
+				"type": "string"
+			},
+			"Flipkart Selling Price": {
+				"type": "integer"
+			},
+			"Brand": {
+				"type": "string"
+			},
+			"Live on website": {
+				"type": "integer"
+			},
+			"Reserved for Orders and Recalls": {
+				"type": "integer"
+			},
+			"Recallable": {
+				"type": "integer"
+			},
+			"Inwarding in Progress": {
+				"type": "integer"
+			},
+			"QC Pending": {
+				"type": "integer"
+			},
+			"Orders to Dispatch": {
+				"type": "integer"
+			},
+			"Returns awaiting inwarding": {
+				"type": "integer"
+			},
+			"Recalls to Dispatch": {
+				"type": "integer"
+			},
+			"Length (in cm)": {
+				"type": "number"
+			},
+			"Breadth (in cm)": {
+				"type": "number"
+			},
+			"Height (in cm)": {
+				"type": "number"
+			},
+			"Weight (in kg)": {
+				"type": "number"
+			},
+			"Fulfilment Type": {
+				"type": "string"
+			},
+			"F Assured Badge": {
+				"type": "string"
+			}
+		}
+
+	}]
+}
