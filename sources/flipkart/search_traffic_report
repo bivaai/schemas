@@ -1,0 +1,47 @@
+{
+      "type": "object",
+      "properties": {
+        "Listing Id": {
+          "type": "string"
+        },
+        "SKU Id": {
+          "type": "string"
+        },
+        "Category": {
+          "type": "string"
+        },
+        "Brand": {
+          "type": "string"
+        },
+        "Vertical": {
+          "type": "string"
+        },
+        "Impression Date": {
+          "type": "string"
+        },
+        "Revenue": {
+          "type": "string"
+        },
+        "Product Views": {
+          "type": "string"
+        },
+        "Product Clicks": {
+          "type": "string"
+        },
+        "Sales": {
+          "type": "string"
+        },
+        "Click Through Rate": {
+          "type": "string"
+        },
+        "Conversion Rate": {
+          "type": "string"
+        },
+        "Average Selling Price": {
+          "type": "string"
+        },
+        "Product Title": {
+          "type": "string"
+        }
+      }
+}
