@@ -22,7 +22,7 @@
 		"flipkart selling price": {
 			"type": [
 				"null",
-				"float"
+				"number"
 			]
 		},
 		"brand": {
@@ -82,25 +82,25 @@
 		"length (in cm)": {
 			"type": [
 				"null",
-				"float"
+				"number"
 			]
 		},
 		"breadth (in cm)": {
 			"type": [
 				"null",
-				"float"
+				"number"
 			]
 		},
 		"height (in cm)": {
 			"type": [
 				"null",
-				"float"
+				"number"
 			]
 		},
 		"weight": {
 			"type": [
 				"null",
-				"float"
+				"number"
 			]
 		},
 		"fulfillment type": {
