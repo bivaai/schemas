@@ -1,0 +1,119 @@
+{
+	"type": "object",
+	"properties": {
+		"sku": {
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		"title": {
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		"listing-id": {
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		"flipkart-selling-price": {
+			"type": [
+				"null",
+				"float"
+			]
+		},
+		"brand": {
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		"live_on_website": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"reserved for orders and recalls": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"recallable": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"inwarding-in-progress": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"qc-pending": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"orders-to-dispatch": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"returns-awaiting-inwarding": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"recalls-to-dispatch": {
+			"type": [
+				"null",
+				"integer"
+			]
+		},
+		"length (in cm)": {
+			"type": [
+				"null",
+				"float"
+			]
+		},
+		"breadth (in cm)": {
+			"type": [
+				"null",
+				"float"
+			]
+		},
+		"height (in cm)": {
+			"type": [
+				"null",
+				"float"
+			]
+		},
+		"weight": {
+			"type": [
+				"null",
+				"float"
+			]
+		},
+		"fulfillment-type": {
+			"type": [
+				"null",
+				"string"
+			]
+		},
+		"f-assured-badge": {
+			"type": [
+				"null",
+				"string"
+			]
+		}
+	}
+}
