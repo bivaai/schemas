@@ -5,34 +5,44 @@
     			"type": "integer"
     		},
     		"Warehouse ID": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"Seller SKU Code": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"SKU ID": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"SKU Code": {
-    			"type": "string"
+    			"type": [
+				"null","string"]
     		},
     		"Style ID": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"Inventory Count": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"Blocked Count": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"Sellable Inventory Count": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"Is Active": {
-    			"type": "integer"
+    			"type": [
+				"null","integer"]
     		},
     		"Modified On": {
-    			"type": "string"
+    			"type": [
+				"null","string"]
     		}
     	}
     }
