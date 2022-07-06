@@ -1,0 +1,137 @@
+    {
+    	"type": "object",
+    	"properties": {
+    		"Seller Id": {
+    			"type": "integer"
+    		},
+    		"Warehouse Id": {
+    			"type": "integer"
+    		},
+    		"Store Order Id": {
+    			"type": "string"
+    		},
+    		"Order Release Id": {
+    			"type": "integer"
+    		},
+    		"Order Line Id": {
+    			"type": "integer"
+    		},
+    		"Seller Order Id": {
+    			"type": "string"
+    		},
+    		"Order Id FK": {
+    			"type": "integer"
+    		},
+    		"Created On": {
+    			"type": "string"
+    		},
+    		"Style ID": {
+    			"type": "integer"
+    		},
+    		"Seller SKU Code": {
+    			"type": "string"
+    		},
+    		"SKU Id": {
+    			"type": "integer"
+    		},
+    		"Myntra SKU Code": {
+    			"type": "string"
+    		},
+    		"Size": {
+    			"type": "string"
+    		},
+    		"Vendor Article Number": {
+    			"type": "string"
+    		},
+    		"Brand": {
+    			"type": "string"
+    		},
+    		"Style Name": {
+    			"type": "string"
+    		},
+    		"Article Type": {
+    			"type": "string"
+    		},
+    		"Order Status": {
+    			"type": "string"
+    		},
+    		"Packet Id": {
+    			"type": "integer"
+    		},
+    		"Seller Packe Id": {
+    			"type": "string"
+    		},
+    		"Courier Code": {
+    			"type": "string"
+    		},
+    		"Order Tracking Number": {
+    			"type": "string"
+    		},
+    		"Seller Warehouse Id": {
+    			"type": "integer"
+    		},
+    		"Cancellation Reason Id Fk": {
+    			"type": "string"
+    		},
+    		"Cancellation Reason": {
+    			"type": "string"
+    		},
+    		"Packed On": {
+    			"type": "string"
+    		},
+    		"FMPU date": {
+    			"type": "string"
+    		},
+    		"Inscanned On": {
+    			"type": "string"
+    		},
+    		"Shipped On": {
+    			"type": "string"
+    		},
+    		"Delivered On": {
+    			"type": "string"
+    		},
+    		"Cancelled On": {
+    			"type": "string"
+    		},
+    		"RTO Creation date": {
+    			"type": "string"
+    		},
+    		"Lost date": {
+    			"type": "string"
+    		},
+    		"Return Creation date": {
+    			"type": "string"
+    		},
+    		"Final Amount": {
+    			"type": "integer"
+    		},
+    		"Total Mrp": {
+    			"type": "integer"
+    		},
+    		"Discount": {
+    			"type": "integer"
+    		},
+    		"Coupon Discount": {
+    			"type": "integer"
+    		},
+    		"Shipping Charge": {
+    			"type": "integer"
+    		},
+    		"Gift Charge": {
+    			"type": "integer"
+    		},
+    		"Tax Recovery": {
+    			"type": "integer"
+    		},
+    		"City": {
+    			"type": "string"
+    		},
+    		"State": {
+    			"type": "string"
+    		},
+    		"Zipcode": {
+    			"type": "integer"
+    		}
+    	}
+    }
