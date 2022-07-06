@@ -13,13 +13,13 @@
 				"string"
 			]
 		},
-		"listing-id": {
+		"listing id": {
 			"type": [
 				"null",
 				"string"
 			]
 		},
-		"flipkart-selling-price": {
+		"flipkart selling price": {
 			"type": [
 				"null",
 				"float"
@@ -31,7 +31,7 @@
 				"string"
 			]
 		},
-		"live_on_website": {
+		"live on website": {
 			"type": [
 				"null",
 				"integer"
@@ -49,31 +49,31 @@
 				"integer"
 			]
 		},
-		"inwarding-in-progress": {
+		"inwarding in progress": {
 			"type": [
 				"null",
 				"integer"
 			]
 		},
-		"qc-pending": {
+		"qc pending": {
 			"type": [
 				"null",
 				"integer"
 			]
 		},
-		"orders-to-dispatch": {
+		"orders to dispatch": {
 			"type": [
 				"null",
 				"integer"
 			]
 		},
-		"returns-awaiting-inwarding": {
+		"returns awaiting inwarding": {
 			"type": [
 				"null",
 				"integer"
 			]
 		},
-		"recalls-to-dispatch": {
+		"recalls to dispatch": {
 			"type": [
 				"null",
 				"integer"
@@ -103,13 +103,13 @@
 				"float"
 			]
 		},
-		"fulfillment-type": {
+		"fulfillment type": {
 			"type": [
 				"null",
 				"string"
 			]
 		},
-		"f-assured-badge": {
+		"f assured badge": {
 			"type": [
 				"null",
 				"string"
