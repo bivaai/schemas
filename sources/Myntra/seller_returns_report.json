@@ -1,0 +1,113 @@
+ {
+ 	"type": "object",
+ 	"properties": {
+ 		"seller_id": {
+ 			"type": "integer"
+ 		},
+ 		"warehouse_id": {
+ 			"type": "integer"
+ 		},
+ 		"model": {
+ 			"type": "string"
+ 		},
+ 		"myntra_sku_code": {
+ 			"type": "string"
+ 		},
+ 		"seller_sku_code": {
+ 			"type": "integer"
+ 		},
+ 		"style_id": {
+ 			"type": "integer"
+ 		},
+ 		"sku_id": {
+ 			"type": "integer"
+ 		},
+ 		"brand": {
+ 			"type": "string"
+ 		},
+ 		"order_created_date": {
+ 			"type": "string"
+ 		},
+ 		"order_delivered_date": {
+ 			"type": "string"
+ 		},
+ 		"return_created_date": {
+ 			"type": "string"
+ 		},
+ 		"refunded_date": {
+ 			"type": "string"
+ 		},
+ 		"order_rto_date": {
+ 			"type": "string"
+ 		},
+ 		"is_refunded": {
+ 			"type": "string"
+ 		},
+ 		"exchange_id": {
+ 			"type": "string"
+ 		},
+ 		"order_id": {
+ 			"type": "integer"
+ 		},
+ 		"order_group_id": {
+ 			"type": "integer"
+ 		},
+ 		"order_line_id": {
+ 			"type": "integer"
+ 		},
+ 		"seller_order_id": {
+ 			"type": "string"
+ 		},
+ 		"status": {
+ 			"type": "string"
+ 		},
+ 		"store_packet_id": {
+ 			"type": "integer"
+ 		},
+ 		"seller_packet_id_fk": {
+ 			"type": "string"
+ 		},
+ 		"quantity": {
+ 			"type": "integer"
+ 		},
+ 		"return_id": {
+ 			"type": "string"
+ 		},
+ 		"return_mode": {
+ 			"type": "string"
+ 		},
+ 		"return_reason": {
+ 			"type": "string"
+ 		},
+ 		"return_status": {
+ 			"type": "string"
+ 		},
+ 		"forward_tracking_number": {
+ 			"type": "integer"
+ 		},
+ 		"return_tracking_number": {
+ 			"type": "string"
+ 		},
+ 		"master_bag_id": {
+ 			"type": "string"
+ 		},
+ 		"LMDO_status": {
+ 			"type": "string"
+ 		},
+ 		"lmdo_last_modified_on": {
+ 			"type": "string"
+ 		},
+ 		"Gatepass_Id": {
+ 			"type": "string"
+ 		},
+ 		"Gatepass_Status": {
+ 			"type": "string"
+ 		},
+ 		"Gatepass_Type": {
+ 			"type": "string"
+ 		},
+ 		"Gatepass_LastModified": {
+ 			"type": "string"
+ 		}
+ 	}
+ }

@@ -1,0 +1,71 @@
+    {
+    	"type": "object",
+    	"properties": {
+    		"Facility": {
+    			"type": "string"
+    		},
+    		"Item Type Name": {
+    			"type": "string"
+    		},
+    		"Item SkuCode": {
+    			"type": "string"
+    		},
+    		"EAN": {
+    			"type": "integer"
+    		},
+    		"UPC": {
+    			"type": "string"
+    		},
+    		"ISBN": {
+    			"type": "string"
+    		},
+    		"Color": {
+    			"type": "string"
+    		},
+    		"Size": {
+    			"type": "string"
+    		},
+    		"Brand": {
+    			"type": "string"
+    		},
+    		"Category Name": {
+    			"type": "string"
+    		},
+    		"MRP": {
+    			"type": "integer"
+    		},
+    		"Open Sale": {
+    			"type": "integer"
+    		},
+    		"Inventory": {
+    			"type": "integer"
+    		},
+    		"Inventory Blocked": {
+    			"type": "integer"
+    		},
+    		"Bad Inventory": {
+    			"type": "integer"
+    		},
+    		"Putaway Pending": {
+    			"type": "integer"
+    		},
+    		"Pending Inventory Assessment": {
+    			"type": "integer"
+    		},
+    		"Stock In Transfer": {
+    			"type": "integer"
+    		},
+    		"Open Purchase": {
+    			"type": "integer"
+    		},
+    		"Enabled": {
+    			"type": "boolean"
+    		},
+    		"Updated": {
+    			"type": "string"
+    		},
+    		"Cost Price": {
+    			"type": "string"
+    		}
+    	}
+    }
