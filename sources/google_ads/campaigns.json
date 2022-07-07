@@ -76,40 +76,40 @@
       "type": "object",
       "properties": {
         "clicks": {
-          "type": "string"
+          "type": "number"
         },
         "valuePerAllConversions": {
-          "type": "integer"
+          "type": "number"
         },
         "valuePerConversion": {
-          "type": "integer"
+          "type": "number"
         },
         "conversionsValue": {
-          "type": "integer"
+          "type": "number"
         },
         "conversions": {
-          "type": "integer"
+          "type": "number"
         },
         "costPerAllConversions": {
-          "type": "integer"
+          "type": "number"
         },
         "costPerConversion": {
-          "type": "integer"
+          "type": "number"
         },
         "ctr": {
           "type": "number"
         },
         "engagements": {
-          "type": "string"
+          "type": "number"
         },
         "allConversionsFromInteractionsRate": {
           "type": "number"
         },
         "allConversionsValue": {
-          "type": "integer"
+          "type": "number"
         },
         "allConversions": {
-          "type": "integer"
+          "type": "number"
         },
         "averageCost": {
           "type": "number"
@@ -130,10 +130,10 @@
           "type": "number"
         },
         "impressions": {
-          "type": "string"
+          "type": "number"
         },
         "interactions": {
-          "type": "string"
+          "type": "number"
         }
       },
       "required": [
