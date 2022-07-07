@@ -1,0 +1,167 @@
+{
+	"type": "object",
+	"properties": {
+		"Seller GSTIN": {
+			"type": "string"
+		},
+		"Order ID": {
+			"type": "string"
+		},
+		"Order Item ID": {
+			"type": "string"
+		},
+		"Product Title/Description": {
+			"type": "string"
+		},
+		"FSN": {
+			"type": "string"
+		},
+		"SKU": {
+			"type": "string"
+		},
+		"HSN Code": {
+			"type": "string"
+		},
+		"Event Type": {
+			"type": "string"
+		},
+		"Event Sub Type": {
+			"type": "string"
+		},
+		"Order Type": {
+			"type": "string"
+		},
+		"Fulfilment Type": {
+			"type": "string"
+		},
+		"Order Date": {
+			"type": "string"
+		},
+		"Order Approval Date ": {
+			"type": "string"
+		},
+		"Item Quantity": {
+			"type": "string"
+		},
+		"Order Shipped From (State)": {
+			"type": "string"
+		},
+		"Price before discount": {
+			"type": "string"
+		},
+		"Total Discount": {
+			"type": "string"
+		},
+		"Seller Share ": {
+			"type": "string"
+		},
+		"Bank Offer Share": {
+			"type": "string"
+		},
+		"Price after discount (Price before discount-Total discount)": {
+			"type": "string"
+		},
+		"Shipping Charges": {
+			"type": "string"
+		},
+		"Final Invoice Amount (Price after discount+Shipping Charges)": {
+			"type": "string"
+		},
+		"Type of tax": {
+			"type": "string"
+		},
+		"Taxable Value (Final Invoice Amount -Taxes)": {
+			"type": "string"
+		},
+		"CST Rate": {
+			"type": "string"
+		},
+		"CST Amount": {
+			"type": "string"
+		},
+		"VAT Rate": {
+			"type": "string"
+		},
+		"VAT Amount": {
+			"type": "string"
+		},
+		"Luxury Cess Rate": {
+			"type": "string"
+		},
+		"Luxury Cess Amount": {
+			"type": "string"
+		},
+		"IGST Rate": {
+			"type": "string"
+		},
+		"IGST Amount": {
+			"type": "string"
+		},
+		"CGST Rate": {
+			"type": "string"
+		},
+		"CGST Amount": {
+			"type": "string"
+		},
+		"SGST Rate (or UTGST as applicable)": {
+			"type": "string"
+		},
+		"SGST Amount (Or UTGST as applicable)": {
+			"type": "string"
+		},
+		"TCS IGST Rate": {
+			"type": "string"
+		},
+		"TCS IGST Amount": {
+			"type": "string"
+		},
+		"TCS CGST Rate": {
+			"type": "string"
+		},
+		"TCS CGST Amount": {
+			"type": "string"
+		},
+		"TCS SGST Rate": {
+			"type": "string"
+		},
+		"TCS SGST Amount": {
+			"type": "string"
+		},
+		"Total TCS Deducted": {
+			"type": "string"
+		},
+		"Buyer Invoice ID": {
+			"type": "string"
+		},
+		"Buyer Invoice Date": {
+			"type": "string"
+		},
+		"Buyer Invoice Amount ": {
+			"type": "string"
+		},
+		"Customer's Billing Pincode": {
+			"type": "string"
+		},
+		"Customer's Billing State": {
+			"type": "string"
+		},
+		"Customer's Delivery Pincode": {
+			"type": "string"
+		},
+		"Customer's Delivery State": {
+			"type": "string"
+		},
+		"Usual Price": {
+			"type": "string"
+		},
+		"Is Shopsy Order?": {
+			"type": "string"
+		},
+		"TDS Rate": {
+			"type": "null"
+		},
+		"TDS Amount": {
+			"type": "null"
+		}
+	}
+}

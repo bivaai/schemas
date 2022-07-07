@@ -1,0 +1,50 @@
+ {
+ 	"type": "object",
+ 	"properties": {
+ 		"Campaign ID": {
+ 			"type": "string"
+ 		},
+ 		"Campaign Name": {
+ 			"type": "string"
+ 		},
+ 		"campaign_status": {
+ 			"type": "string"
+ 		},
+ 		"campaign_budget": {
+ 			"type": "integer"
+ 		},
+ 		"Views": {
+ 			"type": "integer"
+ 		},
+ 		"Clicks": {
+ 			"type": "integer"
+ 		},
+ 		"CTR": {
+ 			"type": "number"
+ 		},
+ 		"CVR": {
+ 			"type": "number"
+ 		},
+ 		"Ad Spend": {
+ 			"type": "number"
+ 		},
+ 		"Units Sold (Direct)": {
+ 			"type": "integer"
+ 		},
+ 		"Units Sold (Indirect)": {
+ 			"type": "integer"
+ 		},
+ 		"Direct Revenue": {
+ 			"type": "integer"
+ 		},
+ 		"Indirect Revenue": {
+ 			"type": "integer"
+ 		},
+ 		"ROI (Direct)": {
+ 			"type": "number"
+ 		},
+ 		"ROI (Indirect)": {
+ 			"type": "number"
+ 		}
+ 	}
+ }

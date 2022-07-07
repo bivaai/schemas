@@ -1,0 +1,119 @@
+    {
+    	"type": "object",
+    	"properties": {
+    		"PO Code": {
+    			"type": "string"
+    		},
+    		"Created": {
+    			"type": "string"
+    		},
+    		"Type": {
+    			"type": "string"
+    		},
+    		"PO Created By": {
+    			"type": "string"
+    		},
+    		"PO Approved Date": {
+    			"type": "string"
+    		},
+    		"Delivery Date": {
+    			"type": "string"
+    		},
+    		"Item Type Name": {
+    			"type": "string"
+    		},
+    		"Item SkuCode": {
+    			"type": "string"
+    		},
+    		"Category": {
+    			"type": "string"
+    		},
+    		"HSN Code": {
+    			"type": "integer"
+    		},
+    		"GST Tax Type Code": {
+    			"type": "string"
+    		},
+    		"Vendor Name": {
+    			"type": "string"
+    		},
+    		"Vendor Code": {
+    			"type": "string"
+    		},
+    		"Vendor SkuCode": {
+    			"type": "string"
+    		},
+    		"Order Quantity": {
+    			"type": "integer"
+    		},
+    		"Recieved Quantity": {
+    			"type": "integer"
+    		},
+    		"Rejected Quantity": {
+    			"type": "integer"
+    		},
+    		"Pending Quantity": {
+    			"type": "integer"
+    		},
+    		"PO Ageing (Days)": {
+    			"type": "integer"
+    		},
+    		"% Pending": {
+    			"type": "integer"
+    		},
+    		"% Rejection": {
+    			"type": "integer"
+    		},
+    		"Facility": {
+    			"type": "string"
+    		},
+    		"Unit Price": {
+    			"type": "number"
+    		},
+    		"Sub Total": {
+    			"type": "number"
+    		},
+    		"CGST": {
+    			"type": "number"
+    		},
+    		"IGST": {
+    			"type": "integer"
+    		},
+    		"SGST": {
+    			"type": "number"
+    		},
+    		"UTGST": {
+    			"type": "integer"
+    		},
+    		"CESS": {
+    			"type": "integer"
+    		},
+    		"CGST Rate": {
+    			"type": "integer"
+    		},
+    		"IGST Rate": {
+    			"type": "integer"
+    		},
+    		"SGST Rate": {
+    			"type": "integer"
+    		},
+    		"UTGST Rate": {
+    			"type": "integer"
+    		},
+    		"CESS Rate": {
+    			"type": "integer"
+    		},
+    		"Total": {
+    			"type": "number"
+    		},
+    		"Purchase Order Status": {
+    			"type": "string"
+    		},
+    		"Rejection Reason": {
+    			"type": "string"
+    		},
+    		"Updated": {
+    			"type": "string"
+    		}
+    	}
+    }

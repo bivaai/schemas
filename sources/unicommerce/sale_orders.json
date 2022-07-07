@@ -1,0 +1,347 @@
+ {
+ 	"type": "object",
+ 	"properties": {
+ 		"Sale Order Item Code": {
+ 			"type": "string"
+ 		},
+ 		"Display Order Code": {
+ 			"type": "integer"
+ 		},
+ 		"Reverse Pickup Code": {
+ 			"type": "string"
+ 		},
+ 		"Reverse Pickup Created Date": {
+ 			"type": "string"
+ 		},
+ 		"Reverse Pickup Reason": {
+ 			"type": "string"
+ 		},
+ 		"Notification Email": {
+ 			"type": "string"
+ 		},
+ 		"Notification Mobile": {
+ 			"type": "integer"
+ 		},
+ 		"Require Customization": {
+ 			"type": "boolean"
+ 		},
+ 		"COD": {
+ 			"type": "integer"
+ 		},
+ 		"Shipping Address Id": {
+ 			"type": "integer"
+ 		},
+ 		"Category": {
+ 			"type": "string"
+ 		},
+ 		"Invoice Code": {
+ 			"type": "string"
+ 		},
+ 		"Invoice Created": {
+ 			"type": "string"
+ 		},
+ 		"EWayBill No": {
+ 			"type": "string"
+ 		},
+ 		"EWayBill Date": {
+ 			"type": "string"
+ 		},
+ 		"EWayBill Valid Till": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address Name": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address Line 1": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address Line 2": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address City": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address State": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address Country": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Address Pincode": {
+ 			"type": "integer"
+ 		},
+ 		"Shipping Address Phone": {
+ 			"type": "integer"
+ 		},
+ 		"Billing Address Id": {
+ 			"type": "integer"
+ 		},
+ 		"Billing Address Name": {
+ 			"type": "string"
+ 		},
+ 		"Billing Address Line 1": {
+ 			"type": "string"
+ 		},
+ 		"Billing Address Line 2": {
+ 			"type": "string"
+ 		},
+ 		"Billing Address City": {
+ 			"type": "string"
+ 		},
+ 		"Billing Address State": {
+ 			"type": "string"
+ 		},
+ 		"Billing Address Country": {
+ 			"type": "string"
+ 		},
+ 		"Billing Address Pincode": {
+ 			"type": "integer"
+ 		},
+ 		"Billing Address Phone": {
+ 			"type": "integer"
+ 		},
+ 		"Shipping Method": {
+ 			"type": "string"
+ 		},
+ 		"Item SKU Code": {
+ 			"type": "string"
+ 		},
+ 		"Channel Product Id": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Name": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Color": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Size": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Brand": {
+ 			"type": "string"
+ 		},
+ 		"Channel Name": {
+ 			"type": "string"
+ 		},
+ 		"SKU Require Customization": {
+ 			"type": "boolean"
+ 		},
+ 		"Gift Wrap": {
+ 			"type": "boolean"
+ 		},
+ 		"Gift Message": {
+ 			"type": "string"
+ 		},
+ 		"HSN Code": {
+ 			"type": "integer"
+ 		},
+ 		"MRP": {
+ 			"type": "integer"
+ 		},
+ 		"Total Price": {
+ 			"type": "number"
+ 		},
+ 		"Selling Price": {
+ 			"type": "number"
+ 		},
+ 		"Cost Price": {
+ 			"type": "string"
+ 		},
+ 		"Prepaid Amount": {
+ 			"type": "integer"
+ 		},
+ 		"Subtotal": {
+ 			"type": "number"
+ 		},
+ 		"Discount": {
+ 			"type": "number"
+ 		},
+ 		"GST Tax Type Code": {
+ 			"type": "string"
+ 		},
+ 		"CGST": {
+ 			"type": "integer"
+ 		},
+ 		"IGST": {
+ 			"type": "number"
+ 		},
+ 		"SGST": {
+ 			"type": "integer"
+ 		},
+ 		"UTGST": {
+ 			"type": "integer"
+ 		},
+ 		"CESS": {
+ 			"type": "integer"
+ 		},
+ 		"CGST Rate": {
+ 			"type": "integer"
+ 		},
+ 		"IGST Rate": {
+ 			"type": "integer"
+ 		},
+ 		"SGST Rate": {
+ 			"type": "integer"
+ 		},
+ 		"UTGST Rate": {
+ 			"type": "integer"
+ 		},
+ 		"CESS Rate": {
+ 			"type": "integer"
+ 		},
+ 		"TCS Amount": {
+ 			"type": "integer"
+ 		},
+ 		"Tax %": {
+ 			"type": "string"
+ 		},
+ 		"Tax Value": {
+ 			"type": "string"
+ 		},
+ 		"Voucher Code": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Charges": {
+ 			"type": "integer"
+ 		},
+ 		"Shipping Method Charges": {
+ 			"type": "integer"
+ 		},
+ 		"COD Service Charges": {
+ 			"type": "integer"
+ 		},
+ 		"Gift Wrap Charges": {
+ 			"type": "integer"
+ 		},
+ 		"Packet Number": {
+ 			"type": "integer"
+ 		},
+ 		"Order Date as dd/mm/yyy hh:MM:ss": {
+ 			"type": "string"
+ 		},
+ 		"Sale Order Code": {
+ 			"type": "string"
+ 		},
+ 		"On Hold": {
+ 			"type": "boolean"
+ 		},
+ 		"Sale Order Status": {
+ 			"type": "string"
+ 		},
+ 		"Priority": {
+ 			"type": "integer"
+ 		},
+ 		"Currency": {
+ 			"type": "string"
+ 		},
+ 		"Currency Conversion Rate": {
+ 			"type": "integer"
+ 		},
+ 		"Sale Order Item Status": {
+ 			"type": "string"
+ 		},
+ 		"Cancellation Reason": {
+ 			"type": "string"
+ 		},
+ 		"Shipping provider": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Courier": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Arranged By": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Package Code": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Package Creation Date": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Package Status Code": {
+ 			"type": "string"
+ 		},
+ 		"Shipping Package Type": {
+ 			"type": "string"
+ 		},
+ 		"Length(mm)": {
+ 			"type": "integer"
+ 		},
+ 		"Width(mm)": {
+ 			"type": "integer"
+ 		},
+ 		"Height(mm)": {
+ 			"type": "integer"
+ 		},
+ 		"Delivery Time": {
+ 			"type": "string"
+ 		},
+ 		"Tracking Number": {
+ 			"type": "integer"
+ 		},
+ 		"Dispatch Date": {
+ 			"type": "string"
+ 		},
+ 		"Facility": {
+ 			"type": "string"
+ 		},
+ 		"Return Date": {
+ 			"type": "string"
+ 		},
+ 		"Return Reason": {
+ 			"type": "string"
+ 		},
+ 		"Created": {
+ 			"type": "string"
+ 		},
+ 		"Updated": {
+ 			"type": "string"
+ 		},
+ 		"Combination Identifier": {
+ 			"type": "string"
+ 		},
+ 		"Combination Description": {
+ 			"type": "string"
+ 		},
+ 		"Transfer Price": {
+ 			"type": "string"
+ 		},
+ 		"Item Code": {
+ 			"type": "string"
+ 		},
+ 		"IMEI": {
+ 			"type": "string"
+ 		},
+ 		"Weight": {
+ 			"type": "integer"
+ 		},
+ 		"GSTIN": {
+ 			"type": "string"
+ 		},
+ 		"Customer GSTIN": {
+ 			"type": "string"
+ 		},
+ 		"TIN": {
+ 			"type": "integer"
+ 		},
+ 		"Payment Instrument": {
+ 			"type": "string"
+ 		},
+ 		"Fulfillment TAT": {
+ 			"type": "string"
+ 		},
+ 		"Adjustment In Selling Price": {
+ 			"type": "integer"
+ 		},
+ 		"Adjustment In Discount": {
+ 			"type": "integer"
+ 		},
+ 		"Channel Shipping": {
+ 			"type": "boolean"
+ 		},
+ 		"Item Details": {
+ 			"type": "string"
+ 		}
+ 	}
+ }
