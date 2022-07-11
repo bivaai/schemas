@@ -158,10 +158,10 @@
 			"type": "string"
 		},
 		"TDS Rate": {
-			"type": "null"
+			"type": "string"
 		},
 		"TDS Amount": {
-			"type": "null"
+			"type": "string"
 		}
 	}
 }
