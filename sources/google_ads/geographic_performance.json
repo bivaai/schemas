@@ -47,7 +47,7 @@
           "type": "string"
         },
         "campaignBudget": {
-          "type": "string"
+          "type": "number"
         },
         "startDate": {
           "type": "string"
@@ -70,6 +70,25 @@
         "startDate",
         "endDate",
         "optimizationScore"
+      ]
+    },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "name"
       ]
     },
     "metrics": {
@@ -99,9 +118,6 @@
         "ctr": {
           "type": "number"
         },
-        "engagements": {
-          "type": "number"
-        },
         "allConversionsFromInteractionsRate": {
           "type": "number"
         },
@@ -120,15 +136,6 @@
         "averageCpm": {
           "type": "number"
         },
-        "averagePageViews": {
-          "type": "number"
-        },
-        "averageTimeOnSite": {
-          "type": "number"
-        },
-        "bounceRate": {
-          "type": "number"
-        },
         "impressions": {
           "type": "number"
         },
@@ -145,16 +152,12 @@
         "costPerAllConversions",
         "costPerConversion",
         "ctr",
-        "engagements",
         "allConversionsFromInteractionsRate",
         "allConversionsValue",
         "allConversions",
         "averageCost",
         "averageCpc",
         "averageCpm",
-        "averagePageViews",
-        "averageTimeOnSite",
-        "bounceRate",
         "impressions",
         "interactions"
       ]
@@ -169,12 +172,29 @@
       "required": [
         "date"
       ]
+    },
+    "geographicView": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "countryCriterionId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "countryCriterionId"
+      ]
     }
   },
   "required": [
     "customer",
     "campaign",
+    "adGroup",
     "metrics",
-    "segments"
+    "segments",
+    "geographicView"
   ]
 }
