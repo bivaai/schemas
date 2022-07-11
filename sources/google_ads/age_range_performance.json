@@ -1,0 +1,192 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "customer": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "descriptiveName": {
+          "type": "string"
+        },
+        "currencyCode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "descriptiveName",
+        "currencyCode"
+      ]
+    },
+    "campaign": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "servingStatus": {
+          "type": "string"
+        },
+        "biddingStrategyType": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "campaignBudget": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "optimizationScore": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "resourceName",
+        "status",
+        "servingStatus",
+        "biddingStrategyType",
+        "name",
+        "id",
+        "campaignBudget",
+        "startDate",
+        "endDate",
+        "optimizationScore"
+      ]
+    },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "name"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "clicks": {
+          "type": "string"
+        },
+        "conversionsValue": {
+          "type": "integer"
+        },
+        "conversions": {
+          "type": "integer"
+        },
+        "ctr": {
+          "type": "integer"
+        },
+        "allConversionsValue": {
+          "type": "integer"
+        },
+        "allConversions": {
+          "type": "integer"
+        },
+        "averageCpm": {
+          "type": "integer"
+        },
+        "impressions": {
+          "type": "string"
+        },
+        "interactions": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "clicks",
+        "conversionsValue",
+        "conversions",
+        "ctr",
+        "allConversionsValue",
+        "allConversions",
+        "averageCpm",
+        "impressions",
+        "interactions"
+      ]
+    },
+    "adGroupCriterion": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "ageRange": {
+          "type": "object",
+          "properties": {
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "type"
+          ]
+        }
+      },
+      "required": [
+        "resourceName",
+        "ageRange"
+      ]
+    },
+    "ageRangeView": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName"
+      ]
+    },
+    "segments": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "date"
+      ]
+    }
+  },
+  "required": [
+    "customer",
+    "campaign",
+    "adGroup",
+    "metrics",
+    "adGroupCriterion",
+    "ageRangeView",
+    "segments"
+  ]
+}
