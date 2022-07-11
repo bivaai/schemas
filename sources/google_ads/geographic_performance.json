@@ -1,0 +1,200 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "customer": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "descriptiveName": {
+          "type": "string"
+        },
+        "currencyCode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "descriptiveName",
+        "currencyCode"
+      ]
+    },
+    "campaign": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "servingStatus": {
+          "type": "string"
+        },
+        "biddingStrategyType": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "campaignBudget": {
+          "type": "number"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        },
+        "optimizationScore": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "resourceName",
+        "status",
+        "servingStatus",
+        "biddingStrategyType",
+        "name",
+        "id",
+        "campaignBudget",
+        "startDate",
+        "endDate",
+        "optimizationScore"
+      ]
+    },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "name"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "clicks": {
+          "type": "number"
+        },
+        "valuePerAllConversions": {
+          "type": "number"
+        },
+        "valuePerConversion": {
+          "type": "number"
+        },
+        "conversionsValue": {
+          "type": "number"
+        },
+        "conversions": {
+          "type": "number"
+        },
+        "costPerAllConversions": {
+          "type": "number"
+        },
+        "costPerConversion": {
+          "type": "number"
+        },
+        "ctr": {
+          "type": "number"
+        },
+        "allConversionsFromInteractionsRate": {
+          "type": "number"
+        },
+        "allConversionsValue": {
+          "type": "number"
+        },
+        "allConversions": {
+          "type": "number"
+        },
+        "averageCost": {
+          "type": "number"
+        },
+        "averageCpc": {
+          "type": "number"
+        },
+        "averageCpm": {
+          "type": "number"
+        },
+        "impressions": {
+          "type": "number"
+        },
+        "interactions": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "clicks",
+        "valuePerAllConversions",
+        "valuePerConversion",
+        "conversionsValue",
+        "conversions",
+        "costPerAllConversions",
+        "costPerConversion",
+        "ctr",
+        "allConversionsFromInteractionsRate",
+        "allConversionsValue",
+        "allConversions",
+        "averageCost",
+        "averageCpc",
+        "averageCpm",
+        "impressions",
+        "interactions"
+      ]
+    },
+    "segments": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "date"
+      ]
+    },
+    "geographicView": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "countryCriterionId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "countryCriterionId"
+      ]
+    }
+  },
+  "required": [
+    "customer",
+    "campaign",
+    "adGroup",
+    "metrics",
+    "segments",
+    "geographicView"
+  ]
+}
