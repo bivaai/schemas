@@ -1,0 +1,180 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "customer": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "descriptiveName": {
+          "type": "string"
+        },
+        "currencyCode": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "descriptiveName",
+        "currencyCode"
+      ]
+    },
+    "campaign": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "servingStatus": {
+          "type": "string"
+        },
+        "biddingStrategyType": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "campaignBudget": {
+          "type": "number"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "status",
+        "servingStatus",
+        "biddingStrategyType",
+        "name",
+        "id",
+        "campaignBudget",
+        "startDate",
+        "endDate"
+      ]
+    },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "name"
+      ]
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "clicks": {
+          "type": "number"
+        },
+        "conversionsValue": {
+          "type": "number"
+        },
+        "conversions": {
+          "type": "number"
+        },
+        "ctr": {
+          "type": "number"
+        },
+        "allConversionsFromInteractionsRate": {
+          "type": "number"
+        },
+        "allConversionsValue": {
+          "type": "number"
+        },
+        "allConversions": {
+          "type": "number"
+        },
+        "averageCpc": {
+          "type": "number"
+        },
+        "averageCpm": {
+          "type": "number"
+        },
+        "averageCpv": {
+          "type": "number"
+        },
+        "impressions": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "clicks",
+        "conversionsValue",
+        "conversions",
+        "ctr",
+        "allConversionsFromInteractionsRate",
+        "allConversionsValue",
+        "allConversions",
+        "averageCpc",
+        "averageCpm",
+        "averageCpv",
+        "impressions"
+      ]
+    },
+    "video": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "channelId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "channelId"
+      ]
+    },
+    "segments": {
+      "type": "object",
+      "properties": {
+        "date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "date"
+      ]
+    }
+  },
+  "required": [
+    "customer",
+    "campaign",
+    "adGroup",
+    "metrics",
+    "video",
+    "segments"
+  ]
+}
