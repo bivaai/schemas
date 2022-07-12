@@ -1,0 +1,44 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "ga_date": {
+      "type": "string"
+    },
+    "ga_browser": {
+      "type": "string"
+    },
+    "ga_campaign": {
+      "type": "string"
+    },
+    "ga_city": {
+      "type": "string"
+    },
+    "ga_devicecategory": {
+      "type": "string"
+    },
+    "ga_shoppingstage": {
+      "type": "string"
+    },
+    "ga_sourcemedium": {
+      "type": "string"
+    },
+    "ga:sessions": {
+      "type": "string"
+    },
+    "ga:users": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "ga_date",
+    "ga_browser",
+    "ga_campaign",
+    "ga_city",
+    "ga_devicecategory",
+    "ga_shoppingstage",
+    "ga_sourcemedium",
+    "ga:sessions",
+    "ga:users"
+  ]
+}
