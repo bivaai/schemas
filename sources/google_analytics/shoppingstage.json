@@ -2,43 +2,43 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "ga_date": {
+    "d_ga_date": {
       "type": "string"
     },
-    "ga_browser": {
+    "d_ga_browser": {
       "type": "string"
     },
-    "ga_campaign": {
+    "d_ga_campaign": {
       "type": "string"
     },
-    "ga_city": {
+    "d_ga_city": {
       "type": "string"
     },
-    "ga_devicecategory": {
+    "d_ga_devicecategory": {
       "type": "string"
     },
-    "ga_shoppingstage": {
+    "d_ga_shoppingstage": {
       "type": "string"
     },
-    "ga_sourcemedium": {
+    "d_ga_sourcemedium": {
       "type": "string"
     },
-    "ga:sessions": {
+    "m_ga_sessions": {
       "type": "string"
     },
-    "ga:users": {
+    "m_ga_users": {
       "type": "string"
     }
   },
   "required": [
-    "ga_date",
-    "ga_browser",
-    "ga_campaign",
-    "ga_city",
-    "ga_devicecategory",
-    "ga_shoppingstage",
-    "ga_sourcemedium",
-    "ga:sessions",
-    "ga:users"
+    "d_ga_date",
+    "d_ga_browser",
+    "d_ga_campaign",
+    "d_ga_city",
+    "d_ga_devicecategory",
+    "d_ga_shoppingstage",
+    "d_ga_sourcemedium",
+    "m_ga_sessions",
+    "m_ga_users"
   ]
 }
