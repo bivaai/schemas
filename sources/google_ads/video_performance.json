@@ -50,7 +50,7 @@
           "type": "number"
         },
         "startDate": {
-          "type": "string"
+          "type": "date"
         },
         "endDate": {
           "type": "string"
