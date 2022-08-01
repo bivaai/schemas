@@ -1,0 +1,400 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "Reporting starts": {
+      "type": "string"
+    },
+    "Reporting ends": {
+      "type": "string"
+    },
+    "converted_product_quantity": {
+      "type": "number"
+    },
+    "converted_product_value": {
+      "type": "number"
+    },
+    "Video average play time": {
+      "type": "number"
+    },
+    "Website CTR": {
+      "type": "number"
+    },
+    "Currency": {
+      "type": "string"
+    },
+    "Account ID": {
+      "type": "integer"
+    },
+    "Account name": {
+      "type": "string"
+    },
+    "Ad ID": {
+      "type": "integer"
+    },
+    "Ad name": {
+      "type": "string"
+    },
+    "Ad set ID": {
+      "type": "integer"
+    },
+    "Ad Set Name": {
+      "type": "string"
+    },
+    "Attribution setting": {
+      "type": "string"
+    },
+    "Buying type": {
+      "type": "string"
+    },
+    "Campaign ID": {
+      "type": "integer"
+    },
+    "Campaign name": {
+      "type": "string"
+    },
+    "Instant experience view percentage": {
+      "type": "number"
+    },
+    "Instant experience view time": {
+      "type": "number"
+    },
+    "Clicks (all)": {
+      "type": "number"
+    },
+    "Conversion rate ranking": {
+      "type": "number"
+    },
+    "Cost per estimated ad recall lift (people) (USD)": {
+      "type": "number"
+    },
+    "Cost per inline link click (USD)": {
+      "type": "number"
+    },
+    "Cost per inline post engagement (USD)": {
+      "type": "number"
+    },
+    "Cost per unique click (all) (USD)": {
+      "type": "number"
+    },
+    "Cost per unique inline link click (USD)": {
+      "type": "number"
+    },
+    "CPC (All) (USD)": {
+      "type": "number"
+    },
+    "CPM (cost per 1,000 impressions) (USD)": {
+      "type": "number"
+    },
+    "Cost per 1,000 people reached (USD)": {
+      "type": "number"
+    },
+    "CTR (all)": {
+      "type": "number"
+    },
+    "Engagement rate ranking": {
+      "type": "string"
+    },
+    "Estimated ad recall lift rate": {
+      "type": "number"
+    },
+    "Estimated ad recall lift (people)": {
+      "type": "number"
+    },
+    "Frequency": {
+      "type": "number"
+    },
+    "Impressions": {
+      "type": "number"
+    },
+    "Inline link CTR (USD)": {
+      "type": "number"
+    },
+    "Inline link clicks in ad": {
+      "type": "number"
+    },
+    "Inline post engagement in ad": {
+      "type": "number"
+    },
+    "Instant experience clicks to open": {
+      "type": "number"
+    },
+    "Instant experience clicks to start": {
+      "type": "number"
+    },
+    "Objective": {
+      "type": "string"
+    },
+    "Optimization goal": {
+      "type": "string"
+    },
+    "Business Name": {
+      "type": "string"
+    },
+    "Quality ranking": {
+      "type": "string"
+    },
+    "Reach": {
+      "type": "number"
+    },
+    "Social spend (USD)": {
+      "type": "number"
+    },
+    "Amount spent (USD)": {
+      "type": "number"
+    },
+    "video_play_curve_actions": {
+      "type": "number"
+    },
+    "Post reactions": {
+      "type": "number"
+    },
+    "Post shares": {
+      "type": "number"
+    },
+    "Link clicks": {
+      "type": "number"
+    },
+    "actions:initiate_checkout": {
+      "type": "number"
+    },
+    "actions:add_to_cart": {
+      "type": "number"
+    },
+    "Page engagement": {
+      "type": "number"
+    },
+    "Post engagement": {
+      "type": "number"
+    },
+    "Landing page views": {
+      "type": "number"
+    },
+    "Website adds of payment info": {
+      "type": "number"
+    },
+    "Website adds to cart": {
+      "type": "number"
+    },
+    "Website checkouts initiated": {
+      "type": "number"
+    },
+    "Website purchases": {
+      "type": "number"
+    },
+    "Website content views": {
+      "type": "number"
+    },
+    "Adds to cart": {
+      "type": "number"
+    },
+    "Adds of payment info": {
+      "type": "number"
+    },
+    "Checkouts Initiated": {
+      "type": "number"
+    },
+    "Content views": {
+      "type": "number"
+    },
+    "Purchases": {
+      "type": "number"
+    },
+    "action_values:initiate_checkout": {
+      "type": "number"
+    },
+    "action_values:add_to_cart": {
+      "type": "number"
+    },
+    "Website adds of payment info conversion value": {
+      "type": "number"
+    },
+    "Website adds to cart conversion value": {
+      "type": "number"
+    },
+    "Website checkouts initiated conversion value": {
+      "type": "number"
+    },
+    "Website purchases conversion value": {
+      "type": "number"
+    },
+    "Website content views conversion value": {
+      "type": "number"
+    },
+    "Adds to cart conversion value": {
+      "type": "number"
+    },
+    "Adds of payment info conversion value": {
+      "type": "number"
+    },
+    "Checkouts initiated conversion value": {
+      "type": "number"
+    },
+    "Content views conversion value": {
+      "type": "number"
+    },
+    "Purchases conversion value": {
+      "type": "number"
+    },
+    "Cost per outbound click (USD)": {
+      "type": "number"
+    },
+    "Cost per unique outbound click (USD)": {
+      "type": "number"
+    },
+    "Outbound clicks": {
+      "type": "number"
+    },
+    "Outbound CTR (click-through rate)": {
+      "type": "number"
+    },
+    "Purchase ROAS (return on ad spend)": {
+      "type": "number"
+    },
+    "CTR (link click-through rate)": {
+      "type": "number"
+    },
+    "Website purchase ROAS (return on ad spend)": {
+      "type": "number"
+    },
+    "3-second video plays": {
+      "type": "number"
+    },
+    "Cost per ThruPlay (USD)": {
+      "type": "number"
+    },
+    "Video plays at 100%": {
+      "type": "number"
+    },
+    "Video plays at 25%": {
+      "type": "number"
+    },
+    "Video plays at 50%": {
+      "type": "number"
+    },
+    "Video plays at 75%": {
+      "type": "number"
+    },
+    "Video plays at 95%": {
+      "type": "number"
+    },
+    "Video plays": {
+      "type": "number"
+    },
+    "Post saves": {
+      "type": "number"
+    },
+    "Website registrations completed": {
+      "type": "number"
+    },
+    "Registrations Completed": {
+      "type": "number"
+    },
+    "Page likes": {
+      "type": "number"
+    },
+    "Post comments": {
+      "type": "number"
+    }
+  },
+  "required": [
+    "Reporting starts",
+    "Reporting ends",
+    "converted_product_quantity",
+    "converted_product_value",
+    "Video average play time",
+    "Website CTR",
+    "Currency",
+    "Account ID",
+    "Account name",
+    "Ad ID",
+    "Ad name",
+    "Ad set ID",
+    "Ad Set Name",
+    "Attribution setting",
+    "Buying type",
+    "Campaign ID",
+    "Campaign name",
+    "Instant experience view percentage",
+    "Instant experience view time",
+    "Clicks (all)",
+    "Conversion rate ranking",
+    "Cost per estimated ad recall lift (people) (USD)",
+    "Cost per inline link click (USD)",
+    "Cost per inline post engagement (USD)",
+    "Cost per unique click (all) (USD)",
+    "Cost per unique inline link click (USD)",
+    "CPC (All) (USD)",
+    "CPM (cost per 1,000 impressions) (USD)",
+    "Cost per 1,000 people reached (USD)",
+    "CTR (all)",
+    "Engagement rate ranking",
+    "Estimated ad recall lift rate",
+    "Estimated ad recall lift (people)",
+    "Frequency",
+    "Impressions",
+    "Inline link CTR (USD)",
+    "Inline link clicks in ad",
+    "Inline post engagement in ad",
+    "Instant experience clicks to open",
+    "Instant experience clicks to start",
+    "Objective",
+    "Optimization goal",
+    "Business Name",
+    "Quality ranking",
+    "Reach",
+    "Social spend (USD)",
+    "Amount spent (USD)",
+    "video_play_curve_actions",
+    "Post reactions",
+    "Post shares",
+    "Link clicks",
+    "actions:initiate_checkout",
+    "actions:add_to_cart",
+    "Page engagement",
+    "Post engagement",
+    "Landing page views",
+    "Website adds of payment info",
+    "Website adds to cart",
+    "Website checkouts initiated",
+    "Website purchases",
+    "Website content views",
+    "Adds to cart",
+    "Adds of payment info",
+    "Checkouts Initiated",
+    "Content views",
+    "Purchases",
+    "action_values:initiate_checkout",
+    "action_values:add_to_cart",
+    "Website adds of payment info conversion value",
+    "Website adds to cart conversion value",
+    "Website checkouts initiated conversion value",
+    "Website purchases conversion value",
+    "Website content views conversion value",
+    "Adds to cart conversion value",
+    "Adds of payment info conversion value",
+    "Checkouts initiated conversion value",
+    "Content views conversion value",
+    "Purchases conversion value",
+    "Cost per outbound click (USD)",
+    "Cost per unique outbound click (USD)",
+    "Outbound clicks",
+    "Outbound CTR (click-through rate)",
+    "Purchase ROAS (return on ad spend)",
+    "CTR (link click-through rate)",
+    "Website purchase ROAS (return on ad spend)",
+    "3-second video plays",
+    "Cost per ThruPlay (USD)",
+    "Video plays at 100%",
+    "Video plays at 25%",
+    "Video plays at 50%",
+    "Video plays at 75%",
+    "Video plays at 95%",
+    "Video plays",
+    "Post saves",
+    "Website registrations completed",
+    "Registrations Completed",
+    "Page likes",
+    "Post comments"
+  ]
+}

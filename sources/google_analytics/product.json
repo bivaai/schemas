@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "d_ga_date": {
+      "type": "string"
+    },
+    "d_ga_productcategoryhierarchy": {
+      "type": "string"
+    },
+    "d_ga_productname": {
+      "type": "string"
+    },
+    "d_ga_productsku": {
+      "type": "string"
+    },
+    "m_ga_itemquantity": {
+      "type": "integer"
+    },
+    "m_ga_itemrevenue": {
+      "type": "number"
+    },
+    "m_ga_productaddstocart": {
+      "type": "integer"
+    },
+    "m_ga_productcheckouts": {
+      "type": "integer"
+    },
+    "m_ga_productdetailviews": {
+      "type": "integer"
+    },
+    "m_ga_productlistclicks": {
+      "type": "integer"
+    },
+    "m_ga_productlistviews": {
+      "type": "integer"
+    },
+    "m_ga_uniquepurchases": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "d_ga_date",
+    "d_ga_productcategoryhierarchy",
+    "d_ga_productname",
+    "d_ga_productsku",
+    "m_ga_itemquantity",
+    "m_ga_itemrevenue",
+    "m_ga_productaddstocart",
+    "m_ga_productcheckouts",
+    "m_ga_productdetailviews",
+    "m_ga_productlistclicks",
+    "m_ga_productlistviews",
+    "m_ga_uniquepurchases"
+  ]
+}
