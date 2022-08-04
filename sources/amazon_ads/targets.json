@@ -1,6 +1,15 @@
 {
 	"type": "object",
 	"properties": {
+		"reportDate": {
+			"type": "date"
+		},
+		"adType": {
+			"type": "string"
+		},
+		"adSubType": {
+			"type": "string"
+		},
 		"adGroupId": {
 			"type": "number"
 		},
@@ -115,9 +124,6 @@
 		"attributedUnitsOrderedNewToBrandPercentage14d": {
 			"type": "number"
 		},
-		"bidOptimization": {
-			"type": "string"
-		},
 		"campaignBudget": {
 			"type": "number"
 		},
@@ -147,6 +153,18 @@
 		},
 		"impressions": {
 			"type": "integer"
+		},
+		"targetId": {
+			"type": "number"
+		},
+		"targetingExpression": {
+			"type": "string"
+		},
+		"targetingText": {
+			"type": "string"
+		},
+		"targetingType": {
+			"type": "string"
 		},
 		"unitsSold14d": {
 			"type": "integer"
@@ -207,15 +225,6 @@
 		},
 		"vtr": {
 			"type": "number"
-		},
-		"reportDate": {
-			"type": "date"
-		},
-		"adType": {
-			"type": "string"
-		},
-		"adSubType": {
-			"type": "string"
 		}
 	}
 }
