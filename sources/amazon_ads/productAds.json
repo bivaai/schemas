@@ -1,10 +1,25 @@
 {
 	"type": "object",
 	"properties": {
+		"reportDate": {
+			"type": "date"
+		},
+		"adType": {
+			"type": "string"
+		},
+		"adSubType": {
+			"type": "string"
+		},
 		"adGroupId": {
 			"type": "number"
 		},
 		"adGroupName": {
+			"type": "string"
+		},
+		"adId": {
+			"type": "number"
+		},
+		"asin": {
 			"type": "string"
 		},
 		"attributedBrandedSearches14d": {
@@ -37,23 +52,14 @@
 		"attributedDetailPageView14d": {
 			"type": "integer"
 		},
-		"attributedDetailPageViewsClicks14d": {
-			"type": "integer"
-		},
 		"attributedKindleEditionNormalizedPagesRead14d": {
 			"type": "integer"
 		},
 		"attributedKindleEditionNormalizedPagesRoyalties14d": {
 			"type": "integer"
 		},
-		"attributedOrderRateNewToBrand14d": {
-			"type": "number"
-		},
 		"attributedOrdersNewToBrand14d": {
 			"type": "integer"
-		},
-		"attributedOrdersNewToBrandPercentage14d": {
-			"type": "number"
 		},
 		"attributedSales14d": {
 			"type": "number"
@@ -80,9 +86,6 @@
 			"type": "number"
 		},
 		"attributedSalesNewToBrand14d": {
-			"type": "number"
-		},
-		"attributedSalesNewToBrandPercentage14d": {
 			"type": "number"
 		},
 		"attributedUnitsOrdered14d": {
@@ -112,12 +115,6 @@
 		"attributedUnitsOrderedNewToBrand14d": {
 			"type": "integer"
 		},
-		"attributedUnitsOrderedNewToBrandPercentage14d": {
-			"type": "number"
-		},
-		"bidOptimization": {
-			"type": "string"
-		},
 		"campaignBudget": {
 			"type": "number"
 		},
@@ -142,41 +139,11 @@
 		"currency": {
 			"type": "string"
 		},
-		"dpv14d": {
-			"type": "integer"
-		},
 		"impressions": {
 			"type": "integer"
 		},
-		"unitsSold14d": {
-			"type": "integer"
-		},
-		"vctr": {
-			"type": "number"
-		},
-		"video5SecondViewRate": {
-			"type": "number"
-		},
-		"video5SecondViews": {
-			"type": "integer"
-		},
-		"videoCompleteViews": {
-			"type": "integer"
-		},
-		"videoFirstQuartileViews": {
-			"type": "integer"
-		},
-		"videoMidpointViews": {
-			"type": "integer"
-		},
-		"videoThirdQuartileViews": {
-			"type": "integer"
-		},
-		"videoUnmutes": {
-			"type": "integer"
-		},
-		"viewableImpressions": {
-			"type": "integer"
+		"sku": {
+			"type": "string"
 		},
 		"viewAttributedBrandedSearches14d": {
 			"type": "integer"
@@ -204,18 +171,6 @@
 		},
 		"viewImpressions": {
 			"type": "integer"
-		},
-		"vtr": {
-			"type": "number"
-		},
-		"reportDate": {
-			"type": "date"
-		},
-		"adType": {
-			"type": "string"
-		},
-		"adSubType": {
-			"type": "string"
 		}
 	}
 }
