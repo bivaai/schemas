@@ -140,7 +140,7 @@
 			"type": "number"
 		},
 		"currency": {
-			"type": "integer"
+			"type": "string"
 		},
 		"dpv14d": {
 			"type": "integer"
