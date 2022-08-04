@@ -47,16 +47,13 @@
           "type": "string"
         },
         "campaignBudget": {
-          "type": "string"
+          "type": "number"
         },
         "startDate": {
-          "type": "string"
+          "type": "date"
         },
         "endDate": {
           "type": "string"
-        },
-        "optimizationScore": {
-          "type": "number"
         }
       },
       "required": [
@@ -68,8 +65,26 @@
         "id",
         "campaignBudget",
         "startDate",
-        "endDate",
-        "optimizationScore"
+        "endDate"
+      ]
+    },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "name"
       ]
     },
     "metrics": {
@@ -78,28 +93,13 @@
         "clicks": {
           "type": "number"
         },
-        "valuePerAllConversions": {
-          "type": "number"
-        },
-        "valuePerConversion": {
-          "type": "number"
-        },
         "conversionsValue": {
           "type": "number"
         },
         "conversions": {
           "type": "number"
         },
-        "costPerAllConversions": {
-          "type": "number"
-        },
-        "costPerConversion": {
-          "type": "number"
-        },
         "ctr": {
-          "type": "number"
-        },
-        "engagements": {
           "type": "number"
         },
         "allConversionsFromInteractionsRate": {
@@ -111,52 +111,50 @@
         "allConversions": {
           "type": "number"
         },
-        "averageCost": {
-          "type": "number"
-        },
         "averageCpc": {
           "type": "number"
         },
         "averageCpm": {
           "type": "number"
         },
-        "averagePageViews": {
-          "type": "number"
-        },
-        "averageTimeOnSite": {
-          "type": "number"
-        },
-        "bounceRate": {
+        "averageCpv": {
           "type": "number"
         },
         "impressions": {
-          "type": "number"
-        },
-        "interactions": {
           "type": "number"
         }
       },
       "required": [
         "clicks",
-        "valuePerAllConversions",
-        "valuePerConversion",
         "conversionsValue",
         "conversions",
-        "costPerAllConversions",
-        "costPerConversion",
         "ctr",
-        "engagements",
         "allConversionsFromInteractionsRate",
         "allConversionsValue",
         "allConversions",
-        "averageCost",
         "averageCpc",
         "averageCpm",
-        "averagePageViews",
-        "averageTimeOnSite",
-        "bounceRate",
-        "impressions",
-        "interactions"
+        "averageCpv",
+        "impressions"
+      ]
+    },
+    "video": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "channelId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "channelId"
       ]
     },
     "segments": {
@@ -174,7 +172,9 @@
   "required": [
     "customer",
     "campaign",
+    "adGroup",
     "metrics",
+    "video",
     "segments"
   ]
 }

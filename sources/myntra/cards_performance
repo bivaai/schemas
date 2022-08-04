@@ -1,0 +1,41 @@
+{
+	"type": "object",
+	"properties": {
+		"Load Date": {
+			"type": "string"
+		},
+		"Image Url": {
+			"type": "string"
+		},
+		"Display Page": {
+			"type": "string"
+		},
+		"Ad Title": {
+			"type": "string"
+		},
+		"Brand": {
+			"type": "string"
+		},
+		"Impressions": {
+			"type": "integer"
+		},
+		"Clicks": {
+			"type": "integer"
+		},
+		"CTR (%)": {
+			"type": "number"
+		},
+		"List Page Loads": {
+			"type": "integer"
+		},
+		"Pdp Views": {
+			"type": "integer"
+		},
+		"Add To Cart": {
+			"type": "integer"
+		},
+		"Add To Wishlist": {
+			"type": "integer"
+		}
+	}
+}

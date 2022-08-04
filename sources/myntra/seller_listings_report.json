@@ -1,0 +1,47 @@
+    {
+    	"type": "object",
+    	"properties": {
+    		"Article Type": {
+    			"type": "string"
+    		},
+    		"Brand": {
+    			"type": "string"
+    		},
+    		"Style Status": {
+    			"type": "string"
+    		},
+    		"Style ID": {
+    			"type": "integer"
+    		},
+    		"Style Name": {
+    			"type": "string"
+    		},
+    		"Size": {
+    			"type": "string"
+    		},
+    		"Seller SKU Code": {
+    			"type": "integer"
+    		},
+    		"SKU ID": {
+    			"type": "integer"
+    		},
+    		"SKU Code": {
+    			"type": "string"
+    		},
+    		"VAN": {
+    			"type": "integer"
+    		},
+    		"MRP": {
+    			"type": "integer"
+    		},
+    		"Is Active": {
+    			"type": "integer"
+    		},
+    		"Listing Status": {
+    			"type": "string"
+    		},
+    		"Seller Listing Comments": {
+    			"type": "string"
+    		}
+    	}
+    }

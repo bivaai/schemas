@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "properties": {
+    "Product Id": {
+      "type": "string"
+    },
+    "SKU ID": {
+      "type": "string"
+    },
+    "Category": {
+      "type": "string"
+    },
+    "Brand": {
+      "type": "string"
+    },
+    "Vertical": {
+      "type": "string"
+    },
+    "Order Date": {
+      "type": "string"
+    },
+    "Fulfillment Type": {
+      "type": "string"
+    },
+    "Location Id": {
+      "type": "string"
+    },
+    "Gross Units": {
+      "type": "string"
+    },
+    "GMV": {
+      "type": "string"
+    },
+    "Cancellation Units": {
+      "type": "string"
+    },
+    "Cancellation Amount": {
+      "type": "string"
+    },
+    "Return Units": {
+      "type": "string"
+    },
+    "Return Amount": {
+      "type": "string"
+    },
+    "Final Sale Units": {
+      "type": "string"
+    },
+    "Final Sale Amount": {
+      "type": "string"
+    }
+  }
+}

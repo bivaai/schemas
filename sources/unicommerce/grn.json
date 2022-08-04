@@ -1,0 +1,95 @@
+ {
+ 	"type": "object",
+ 	"properties": {
+ 		"GRN Code": {
+ 			"type": "string"
+ 		},
+ 		"GRN Date": {
+ 			"type": "string"
+ 		},
+ 		"GRN Created By": {
+ 			"type": "string"
+ 		},
+ 		"Item SkuCode": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Name": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Color": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Size": {
+ 			"type": "string"
+ 		},
+ 		"Item Type Brand": {
+ 			"type": "string"
+ 		},
+ 		"Facility": {
+ 			"type": "string"
+ 		},
+ 		"Category": {
+ 			"type": "string"
+ 		},
+ 		"Batch Code": {
+ 			"type": "string"
+ 		},
+ 		"Additional Cost": {
+ 			"type": "integer"
+ 		},
+ 		"Vendor SkuCode": {
+ 			"type": "string"
+ 		},
+ 		"Vendor Name": {
+ 			"type": "string"
+ 		},
+ 		"Vendor Code": {
+ 			"type": "string"
+ 		},
+ 		"GRN Invoice No": {
+ 			"type": "string"
+ 		},
+ 		"GRN Invoice Date": {
+ 			"type": "string"
+ 		},
+ 		"PO Code": {
+ 			"type": "string"
+ 		},
+ 		"PO Date": {
+ 			"type": "string"
+ 		},
+ 		"Quantity Received": {
+ 			"type": "integer"
+ 		},
+ 		"Quantity Rejected": {
+ 			"type": "integer"
+ 		},
+ 		"Percentage Rejection": {
+ 			"type": "integer"
+ 		},
+ 		"Values of Goods Received without taxes": {
+ 			"type": "number"
+ 		},
+ 		"Values of Goods Received with taxes": {
+ 			"type": "number"
+ 		},
+ 		"Values of Goods Rejected without taxes": {
+ 			"type": "integer"
+ 		},
+ 		"Values of Goods Rejected with taxes": {
+ 			"type": "integer"
+ 		},
+ 		"Rejection Reason": {
+ 			"type": "string"
+ 		},
+ 		"Expiry Date": {
+ 			"type": "string"
+ 		},
+ 		"Grn item Status": {
+ 			"type": "string"
+ 		},
+ 		"Updated": {
+ 			"type": "string"
+ 		}
+ 	}
+ }

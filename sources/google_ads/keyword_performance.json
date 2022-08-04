@@ -47,7 +47,7 @@
           "type": "string"
         },
         "campaignBudget": {
-          "type": "string"
+          "type": "number"
         },
         "startDate": {
           "type": "string"
@@ -72,16 +72,29 @@
         "optimizationScore"
       ]
     },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "id",
+        "name"
+      ]
+    },
     "metrics": {
       "type": "object",
       "properties": {
         "clicks": {
-          "type": "number"
-        },
-        "valuePerAllConversions": {
-          "type": "number"
-        },
-        "valuePerConversion": {
           "type": "number"
         },
         "conversionsValue": {
@@ -90,19 +103,10 @@
         "conversions": {
           "type": "number"
         },
-        "costPerAllConversions": {
-          "type": "number"
-        },
-        "costPerConversion": {
-          "type": "number"
-        },
         "ctr": {
           "type": "number"
         },
         "engagements": {
-          "type": "number"
-        },
-        "allConversionsFromInteractionsRate": {
           "type": "number"
         },
         "allConversionsValue": {
@@ -111,22 +115,7 @@
         "allConversions": {
           "type": "number"
         },
-        "averageCost": {
-          "type": "number"
-        },
-        "averageCpc": {
-          "type": "number"
-        },
         "averageCpm": {
-          "type": "number"
-        },
-        "averagePageViews": {
-          "type": "number"
-        },
-        "averageTimeOnSite": {
-          "type": "number"
-        },
-        "bounceRate": {
           "type": "number"
         },
         "impressions": {
@@ -138,25 +127,57 @@
       },
       "required": [
         "clicks",
-        "valuePerAllConversions",
-        "valuePerConversion",
         "conversionsValue",
         "conversions",
-        "costPerAllConversions",
-        "costPerConversion",
         "ctr",
         "engagements",
-        "allConversionsFromInteractionsRate",
         "allConversionsValue",
         "allConversions",
-        "averageCost",
-        "averageCpc",
         "averageCpm",
-        "averagePageViews",
-        "averageTimeOnSite",
-        "bounceRate",
         "impressions",
         "interactions"
+      ]
+    },
+    "adGroupCriterion": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "keyword": {
+          "type": "object",
+          "properties": {
+            "matchType": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "matchType",
+            "text"
+          ]
+        },
+        "criterionId": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName",
+        "keyword",
+        "criterionId"
+      ]
+    },
+    "keywordView": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "resourceName"
       ]
     },
     "segments": {
@@ -174,7 +195,10 @@
   "required": [
     "customer",
     "campaign",
+    "adGroup",
     "metrics",
+    "adGroupCriterion",
+    "keywordView",
     "segments"
   ]
 }
