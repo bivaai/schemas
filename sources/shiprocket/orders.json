@@ -1,0 +1,259 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "channel_id": {
+      "type": "integer"
+    },
+    "channel_name": {
+      "type": "string"
+    },
+    "base_channel_code": {
+      "type": "string"
+    },
+    "channel_order_id": {
+      "type": "string"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "string"
+    },
+    "customer_phone": {
+      "type": "string"
+    },
+    "pickup_location": {
+      "type": "string"
+    },
+    "payment_status": {
+      "type": "string"
+    },
+    "total": {
+      "type": "string"
+    },
+    "tax": {
+      "type": "string"
+    },
+    "sla": {
+      "type": "string"
+    },
+    "shipping_method": {
+      "type": "string"
+    },
+    "expedited": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "status_code": {
+      "type": "integer"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "is_international": {
+      "type": "integer"
+    },
+    "purpose_of_shipment": {
+      "type": "integer"
+    },
+    "channel_created_at": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "products": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "channel_order_product_id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "channel_sku": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "integer"
+            },
+            "product_id": {
+              "type": "integer"
+            },
+            "available": {
+              "type": "integer"
+            },
+            "status": {
+              "type": "string"
+            },
+            "hsn": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "channel_order_product_id",
+            "name",
+            "channel_sku",
+            "quantity",
+            "product_id",
+            "available",
+            "status",
+            "hsn"
+          ]
+        }
+      ]
+    },
+    "shipments": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "isd_code": {
+              "type": "string"
+            },
+            "courier": {
+              "type": "string"
+            },
+            "weight": {
+              "type": "integer"
+            },
+            "dimensions": {
+              "type": "string"
+            },
+            "pickup_scheduled_date": {
+              "type": "null"
+            },
+            "pickup_token_number": {
+              "type": "null"
+            },
+            "awb": {
+              "type": "string"
+            },
+            "return_awb": {
+              "type": "string"
+            },
+            "volumetric_weight": {
+              "type": "integer"
+            },
+            "pod": {
+              "type": "null"
+            },
+            "etd": {
+              "type": "string"
+            },
+            "rto_delivered_date": {
+              "type": "string"
+            },
+            "delivered_date": {
+              "type": "null"
+            },
+            "etd_escalation_btn": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "id",
+            "isd_code",
+            "courier",
+            "weight",
+            "dimensions",
+            "pickup_scheduled_date",
+            "pickup_token_number",
+            "awb",
+            "return_awb",
+            "volumetric_weight",
+            "pod",
+            "etd",
+            "rto_delivered_date",
+            "delivered_date",
+            "etd_escalation_btn"
+          ]
+        }
+      ]
+    },
+    "activities": {
+      "type": "array",
+      "items": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "type": "string"
+        }
+      ]
+    },
+    "allow_return": {
+      "type": "integer"
+    },
+    "is_incomplete": {
+      "type": "integer"
+    },
+    "errors": {
+      "type": "array",
+      "items": {}
+    },
+    "show_escalation_btn": {
+      "type": "integer"
+    },
+    "escalation_status": {
+      "type": "string"
+    },
+    "escalation_history": {
+      "type": "array",
+      "items": {}
+    }
+  },
+  "required": [
+    "id",
+    "channel_id",
+    "channel_name",
+    "base_channel_code",
+    "channel_order_id",
+    "customer_name",
+    "customer_email",
+    "customer_phone",
+    "pickup_location",
+    "payment_status",
+    "total",
+    "tax",
+    "sla",
+    "shipping_method",
+    "expedited",
+    "status",
+    "status_code",
+    "payment_method",
+    "is_international",
+    "purpose_of_shipment",
+    "channel_created_at",
+    "created_at",
+    "products",
+    "shipments",
+    "activities",
+    "allow_return",
+    "is_incomplete",
+    "errors",
+    "show_escalation_btn",
+    "escalation_status",
+    "escalation_history"
+  ]
+}
