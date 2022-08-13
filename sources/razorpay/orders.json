@@ -21,7 +21,7 @@
       "type": "string"
     },
     "receipt": {
-      "type": "null"
+      "type": ["null","string"]
     },
     "payments": {
       "type": "object",
@@ -57,7 +57,7 @@
                   "type": "string"
                 },
                 "invoice_id": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "international": {
                   "type": "boolean"
@@ -69,13 +69,13 @@
                   "type": "integer"
                 },
                 "refund_status": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "captured": {
                   "type": "boolean"
                 },
                 "description": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "card_id": {
                   "type": "string"
@@ -102,7 +102,7 @@
                       "type": "string"
                     },
                     "issuer": {
-                      "type": "null"
+                      "type": ["null","string"]
                     },
                     "international": {
                       "type": "boolean"
@@ -124,13 +124,13 @@
                   ]
                 },
                 "bank": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "wallet": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "vpa": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "email": {
                   "type": "string"
@@ -143,25 +143,25 @@
                   "items": {}
                 },
                 "fee": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "tax": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "error_code": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "error_description": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "error_source": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "error_step": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "error_reason": {
-                  "type": "null"
+                  "type": ["null","string"]
                 },
                 "created_at": {
                   "type": "integer"
@@ -209,7 +209,7 @@
       ]
     },
     "offer_id": {
-      "type": "null"
+      "type": ["null","string"]
     },
     "status": {
       "type": "string"
