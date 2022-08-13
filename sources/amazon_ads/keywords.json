@@ -2,9 +2,15 @@
 	"type": "object",
 	"properties": {
 		"adGroupId": {
-			"type": "integer"
+			"type": "number"
 		},
 		"adGroupName": {
+			"type": "string"
+		},
+		"applicableBudgetRuleId": {
+			"type": "integer"
+		},
+		"applicableBudgetRuleName": {
 			"type": "string"
 		},
 		"attributedBrandedSearches14d": {
@@ -34,9 +40,6 @@
 		"attributedConversions7dSameSKU": {
 			"type": "integer"
 		},
-		"attributedDetailPageView14d": {
-			"type": "integer"
-		},
 		"attributedDetailPageViewsClicks14d": {
 			"type": "integer"
 		},
@@ -47,43 +50,43 @@
 			"type": "integer"
 		},
 		"attributedOrderRateNewToBrand14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedOrdersNewToBrand14d": {
 			"type": "integer"
 		},
 		"attributedOrdersNewToBrandPercentage14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales14dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales1d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales1dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales30d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales30dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales7d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales7dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSalesNewToBrand14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSalesNewToBrandPercentage14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedUnitsOrdered14d": {
 			"type": "integer"
@@ -113,22 +116,22 @@
 			"type": "integer"
 		},
 		"attributedUnitsOrderedNewToBrandPercentage14d": {
-			"type": "integer"
-		},
-		"bidOptimization": {
-			"type": "string"
+			"type": "number"
 		},
 		"campaignBudget": {
-			"type": "integer"
+			"type": "number"
 		},
 		"campaignBudgetType": {
 			"type": "string"
 		},
 		"campaignId": {
-			"type": "integer"
+			"type": "number"
 		},
 		"campaignName": {
 			"type": "string"
+		},
+		"campaignRuleBasedBudget": {
+			"type": "number"
 		},
 		"campaignStatus": {
 			"type": "string"
@@ -137,7 +140,7 @@
 			"type": "integer"
 		},
 		"cost": {
-			"type": "integer"
+			"type": "number"
 		},
 		"currency": {
 			"type": "string"
@@ -148,14 +151,35 @@
 		"impressions": {
 			"type": "integer"
 		},
+		"keywordBid": {
+			"type": "number"
+		},
+		"keywordId": {
+			"type": "number"
+		},
+		"keywordStatus": {
+			"type": "string"
+		},
+		"keywordText": {
+			"type": "string"
+		},
+		"matchType": {
+			"type": "string"
+		},
+		"searchTermImpressionRank": {
+			"type": "integer"
+		},
+		"searchTermImpressionShare": {
+			"type": "number"
+		},
 		"unitsSold14d": {
 			"type": "integer"
 		},
 		"vctr": {
-			"type": "integer"
+			"type": "number"
 		},
 		"video5SecondViewRate": {
-			"type": "integer"
+			"type": "number"
 		},
 		"video5SecondViews": {
 			"type": "integer"
@@ -178,35 +202,17 @@
 		"viewableImpressions": {
 			"type": "integer"
 		},
-		"viewAttributedBrandedSearches14d": {
-			"type": "integer"
-		},
-		"viewAttributedConversions14d": {
-			"type": "integer"
-		},
-		"viewAttributedDetailPageView14d": {
-			"type": "integer"
-		},
-		"viewAttributedOrdersNewToBrand14d": {
-			"type": "integer"
-		},
-		"viewAttributedSales14d": {
-			"type": "integer"
-		},
-		"viewAttributedSalesNewToBrand14d": {
-			"type": "integer"
-		},
-		"viewAttributedUnitsOrdered14d": {
-			"type": "integer"
-		},
-		"viewAttributedUnitsOrderedNewToBrand14d": {
-			"type": "integer"
-		},
-		"viewImpressions": {
-			"type": "integer"
-		},
 		"vtr": {
-			"type": "integer"
+			"type": "number"
+		},
+		"reportDate": {
+			"type": "date"
+		},
+		"adType": {
+			"type": "string"
+		},
+		"adSubType": {
+			"type": "string"
 		}
 	}
 }

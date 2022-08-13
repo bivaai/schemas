@@ -1,0 +1,206 @@
+{
+	"type": "object",
+	"properties": {
+		"reportDate": {
+			"type": "date"
+		},
+		"adType": {
+			"type": "string"
+		},
+		"adSubType": {
+			"type": "string"
+		},
+		"adGroupId": {
+			"type": "number"
+		},
+		"adGroupName": {
+			"type": "string"
+		},
+		"attributedConversions14d": {
+			"type": "integer"
+		},
+		"attributedConversions14dSameSKU": {
+			"type": "integer"
+		},
+		"attributedConversions1d": {
+			"type": "integer"
+		},
+		"attributedConversions1dSameSKU": {
+			"type": "integer"
+		},
+		"attributedConversions30d": {
+			"type": "integer"
+		},
+		"attributedConversions30dSameSKU": {
+			"type": "integer"
+		},
+		"attributedConversions7d": {
+			"type": "integer"
+		},
+		"attributedConversions7dSameSKU": {
+			"type": "integer"
+		},
+		"attributedDetailPageViewsClicks14d": {
+			"type": "integer"
+		},
+		"attributedKindleEditionNormalizedPagesRead14d": {
+			"type": "integer"
+		},
+		"attributedKindleEditionNormalizedPagesRoyalties14d": {
+			"type": "integer"
+		},
+		"attributedOrderRateNewToBrand14d": {
+			"type": "number"
+		},
+		"attributedOrdersNewToBrand14d": {
+			"type": "integer"
+		},
+		"attributedOrdersNewToBrandPercentage14d": {
+			"type": "number"
+		},
+		"attributedSales14d": {
+			"type": "number"
+		},
+		"attributedSales14dSameSKU": {
+			"type": "number"
+		},
+		"attributedSales1d": {
+			"type": "number"
+		},
+		"attributedSales1dSameSKU": {
+			"type": "number"
+		},
+		"attributedSales30d": {
+			"type": "number"
+		},
+		"attributedSales30dSameSKU": {
+			"type": "number"
+		},
+		"attributedSales7d": {
+			"type": "number"
+		},
+		"attributedSales7dSameSKU": {
+			"type": "number"
+		},
+		"attributedSalesNewToBrand14d": {
+			"type": "number"
+		},
+		"attributedSalesNewToBrandPercentage14d": {
+			"type": "number"
+		},
+		"attributedUnitsOrdered14d": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered14dSameSKU": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered1d": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered1dSameSKU": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered30d": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered30dSameSKU": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered7d": {
+			"type": "integer"
+		},
+		"attributedUnitsOrdered7dSameSKU": {
+			"type": "integer"
+		},
+		"attributedUnitsOrderedNewToBrand14d": {
+			"type": "integer"
+		},
+		"attributedUnitsOrderedNewToBrandPercentage14d": {
+			"type": "number"
+		},
+		"campaignBudget": {
+			"type": "number"
+		},
+		"campaignBudgetType": {
+			"type": "string"
+		},
+		"campaignId": {
+			"type": "number"
+		},
+		"campaignName": {
+			"type": "string"
+		},
+		"campaignStatus": {
+			"type": "string"
+		},
+		"clicks": {
+			"type": "integer"
+		},
+		"cost": {
+			"type": "number"
+		},
+		"currency": {
+			"type": "string"
+		},
+		"dpv14d": {
+			"type": "integer"
+		},
+		"impressions": {
+			"type": "integer"
+		},
+		"keywordBid": {
+			"type": "number"
+		},
+		"keywordId": {
+			"type": "number"
+		},
+		"keywordStatus": {
+			"type": "string"
+		},
+		"keywordText": {
+			"type": "string"
+		},
+		"matchType": {
+			"type": "string"
+		},
+		"query": {
+			"type": "string"
+		},
+		"searchTermImpressionRank": {
+			"type": "integer"
+		},
+		"searchTermImpressionShare": {
+			"type": "number"
+		},
+		"vctr": {
+			"type": "number"
+		},
+		"video5SecondViewRate": {
+			"type": "number"
+		},
+		"video5SecondViews": {
+			"type": "integer"
+		},
+		"videoCompleteViews": {
+			"type": "integer"
+		},
+		"videoFirstQuartileViews": {
+			"type": "integer"
+		},
+		"videoMidpointViews": {
+			"type": "integer"
+		},
+		"videoThirdQuartileViews": {
+			"type": "integer"
+		},
+		"videoUnmutes": {
+			"type": "integer"
+		},
+		"viewableImpressions": {
+			"type": "integer"
+		},
+		"vtr": {
+			"type": "number"
+		}
+	}
+}

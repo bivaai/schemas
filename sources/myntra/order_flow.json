@@ -1,0 +1,433 @@
+ {
+ 	"type": "object",
+ 	"properties": {
+ 		"sale_order_code": {
+ 			"type": "integer"
+ 		},
+ 		"order_number": {
+ 			"type": "integer"
+ 		},
+ 		"order_date": {
+ 			"type": "string",
+ 			"format": "date-time"
+ 		},
+ 		"packing_date": {
+ 			"type": "string"
+ 		},
+ 		"invoice_number": {
+ 			"type": "string"
+ 		},
+ 		"product_sku_code": {
+ 			"type": "string"
+ 		},
+ 		"order_item_status": {
+ 			"type": "string"
+ 		},
+ 		"promised_delivery_date": {
+ 			"type": "string"
+ 		},
+ 		"actual_delivery_date": {
+ 			"type": "string"
+ 		},
+ 		"return_date": {
+ 			"type": "string"
+ 		},
+ 		"restocked_date": {
+ 			"type": "string"
+ 		},
+ 		"return_type": {
+ 			"type": "string"
+ 		},
+ 		"promised_settlement_date": {
+ 			"type": "string"
+ 		},
+ 		"currency": {
+ 			"type": "string"
+ 		},
+ 		"customer_paid_amount": {
+ 			"type": "number"
+ 		},
+ 		"postpaid_amount": {
+ 			"type": "integer"
+ 		},
+ 		"prepaid_amount": {
+ 			"type": "integer"
+ 		},
+ 		"mrp": {
+ 			"type": "number"
+ 		},
+ 		"discount_amount": {
+ 			"type": "integer"
+ 		},
+ 		"shipping_case": {
+ 			"type": "string"
+ 		},
+ 		"tax_rate": {
+ 			"type": "integer"
+ 		},
+ 		"igst_amount": {
+ 			"type": "number"
+ 		},
+ 		"cgst_amount": {
+ 			"type": "integer"
+ 		},
+ 		"sgst_amount": {
+ 			"type": "integer"
+ 		},
+ 		"tcs_igst_amt": {
+ 			"type": "number"
+ 		},
+ 		"tcs_sgst_amt": {
+ 			"type": "integer"
+ 		},
+ 		"tcs_cgst_amt": {
+ 			"type": "integer"
+ 		},
+ 		"minimum_commission": {
+ 			"type": "integer"
+ 		},
+ 		"commission_pct": {
+ 			"type": "number"
+ 		},
+ 		"commission_total_amount": {
+ 			"type": "number"
+ 		},
+ 		"total_commission_plus_tcs_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"customer_paid_amt_fw": {
+ 			"type": "string"
+ 		},
+ 		"total_settlement_fw": {
+ 			"type": "string"
+ 		},
+ 		"amount_pending_settlement_fw": {
+ 			"type": "string"
+ 		},
+ 		"prepaid_commission_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"prepaid_logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"prepaid_payment_fw": {
+ 			"type": "string"
+ 		},
+ 		"postpaid_commission_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"postpaid_logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"postpaid_payment_fw": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_prepaid_comm_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_prepaid_logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_prepaid_payment_fw": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_postpaid_comm_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_postpaid_logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_postpaid_payment_fw": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_prepaid_comm_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_prepaid_logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_prepaid_payment_fw": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_postpaid_comm_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_postpaid_logistics_deduction_fw": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_postpaid_payment_fw": {
+ 			"type": "string"
+ 		},
+ 		"total_commission_plus_tcs_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"customer_paid_amt_rv": {
+ 			"type": "string"
+ 		},
+ 		"total_settlement_rv": {
+ 			"type": "string"
+ 		},
+ 		"amount_pending_settlement_rv": {
+ 			"type": "string"
+ 		},
+ 		"prepaid_commission_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"prepaid_logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"prepaid_payment_rv": {
+ 			"type": "string"
+ 		},
+ 		"postpaid_commission_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"postpaid_logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"postpaid_payment_rv": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_prepaid_comm_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_prepaid_logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_prepaid_payment_rv": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_postpaid_comm_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_postpaid_logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"settlement_date_postpaid_payment_rv": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_prepaid_comm_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_prepaid_logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_prepaid_payment_rv": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_postpaid_comm_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_postpaid_logistics_deduction_rv": {
+ 			"type": "string"
+ 		},
+ 		"bank_utr_no_postpaid_payment_rv": {
+ 			"type": "string"
+ 		},
+ 		"courier_name": {
+ 			"type": "string"
+ 		},
+ 		"e_commerce_portal_name": {
+ 			"type": "string"
+ 		},
+ 		"hsn": {
+ 			"type": "integer"
+ 		},
+ 		"product_tax_category": {
+ 			"type": "string"
+ 		},
+ 		"payment_method": {
+ 			"type": "string"
+ 		},
+ 		"brand": {
+ 			"type": "string"
+ 		},
+ 		"gender": {
+ 			"type": "string"
+ 		},
+ 		"article_type": {
+ 			"type": "string"
+ 		},
+ 		"supply_type": {
+ 			"type": "string"
+ 		},
+ 		"is_try_and_buy": {
+ 			"type": "boolean"
+ 		},
+ 		"tracking_no": {
+ 			"type": "string"
+ 		},
+ 		"customer_name": {
+ 			"type": "string"
+ 		},
+ 		"customer_pincode": {
+ 			"type": "string",
+ 			"format": "integer"
+ 		},
+ 		"customer_state": {
+ 			"type": "string"
+ 		},
+ 		"igst_rate": {
+ 			"type": "integer"
+ 		},
+ 		"cgst_rate": {
+ 			"type": "integer"
+ 		},
+ 		"sgst_rate": {
+ 			"type": "integer"
+ 		},
+ 		"taxable_amount": {
+ 			"type": "number"
+ 		},
+ 		"tcs_igst_rate": {
+ 			"type": "integer"
+ 		},
+ 		"tcs_sgst_rate": {
+ 			"type": "integer"
+ 		},
+ 		"tcs_cgst_rate": {
+ 			"type": "integer"
+ 		},
+ 		"shipping_amount": {
+ 			"type": "integer"
+ 		},
+ 		"gift_amount": {
+ 			"type": "integer"
+ 		},
+ 		"cart_discount": {
+ 			"type": "integer"
+ 		},
+ 		"coupon_discount": {
+ 			"type": "integer"
+ 		},
+ 		"seller_gstn": {
+ 			"type": "string"
+ 		},
+ 		"seller_name": {
+ 			"type": "string"
+ 		},
+ 		"seller_state_code": {
+ 			"type": "string"
+ 		},
+ 		"additional_amount": {
+ 			"type": "integer"
+ 		},
+ 		"postpaid_amount_other": {
+ 			"type": "integer"
+ 		},
+ 		"prepaid_amount_other": {
+ 			"type": "integer"
+ 		},
+ 		"myntra_gstn": {
+ 			"type": "string"
+ 		},
+ 		"party_id_to": {
+ 			"type": "integer"
+ 		},
+ 		"Item_Code": {
+ 			"type": "string"
+ 		},
+ 		"Item_Created_On": {
+ 			"type": "string"
+ 		},
+ 		"Item_Updated_On": {
+ 			"type": "string"
+ 		},
+ 		"Item_Status": {
+ 			"type": "string"
+ 		},
+ 		"GRN_Number": {
+ 			"type": "string"
+ 		},
+ 		"GRN_Created": {
+ 			"type": "string"
+ 		},
+ 		"Vendor_Code": {
+ 			"type": "string"
+ 		},
+ 		"Facility": {
+ 			"type": "string"
+ 		},
+ 		"Item_Type_Name": {
+ 			"type": "string"
+ 		},
+ 		"_MRP": {
+ 			"type": "string"
+ 		},
+ 		"Item_Type_skuCode": {
+ 			"type": "string"
+ 		},
+ 		"Vendor_skuCode": {
+ 			"type": "string"
+ 		},
+ 		"Unit_price_without_tax": {
+ 			"type": "string"
+ 		},
+ 		"Unit_price_with_tax": {
+ 			"type": "string"
+ 		},
+ 		"Rejection_Reason": {
+ 			"type": "string"
+ 		},
+ 		"Gate_Pass_No": {
+ 			"type": "string"
+ 		},
+ 		"Gate_Pass_Type": {
+ 			"type": "string"
+ 		},
+ 		"Gate_Pass_Status": {
+ 			"type": "string"
+ 		},
+ 		"Gate_Pass_Created": {
+ 			"type": "string"
+ 		},
+ 		"HSN_Code": {
+ 			"type": "string"
+ 		},
+ 		"_Invoice_Number": {
+ 			"type": "string"
+ 		},
+ 		"_Invoice_Date": {
+ 			"type": "string"
+ 		},
+ 		"PO_Type": {
+ 			"type": "string"
+ 		},
+ 		"PO_Code": {
+ 			"type": "string"
+ 		},
+ 		"PO_Created": {
+ 			"type": "string"
+ 		},
+ 		"Sale_Order_status": {
+ 			"type": "string"
+ 		},
+ 		"Myntra_Status_OGP": {
+ 			"type": "string"
+ 		},
+ 		"Vendor_Style_Code": {
+ 			"type": "string"
+ 		},
+ 		"ASN_code": {
+ 			"type": "string"
+ 		},
+ 		"ASN_created": {
+ 			"type": "string"
+ 		},
+ 		"ASN_packed": {
+ 			"type": "string"
+ 		},
+ 		"ASN_picked": {
+ 			"type": "string"
+ 		},
+ 		"FOCI_supply_type": {
+ 			"type": "string"
+ 		}
+ 	}
+ }
