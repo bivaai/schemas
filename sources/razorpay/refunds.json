@@ -1,0 +1,68 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "payment_id": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "comment": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "comment"
+      ]
+    },
+    "receipt": {
+      "type": "null"
+    },
+    "acquirer_data": {
+      "type": "object"
+    },
+    "created_at": {
+      "type": "integer"
+    },
+    "batch_id": {
+      "type": "null"
+    },
+    "status": {
+      "type": "string"
+    },
+    "speed_processed": {
+      "type": "string"
+    },
+    "speed_requested": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "amount",
+    "currency",
+    "payment_id",
+    "notes",
+    "receipt",
+    "acquirer_data",
+    "created_at",
+    "batch_id",
+    "status",
+    "speed_processed",
+    "speed_requested"
+  ]
+}
