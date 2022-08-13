@@ -69,7 +69,7 @@
       "type": "string"
     },
     "products": {
-      "type": "object",
+      "type": ["null", "array"],
       "items": [
         {
           "type": "object",
@@ -117,7 +117,7 @@
       ]
     },
     "shipments": {
-      "type": "object",
+      "type": ["null", "array"],
       "items": [
         {
           "type": "object",
