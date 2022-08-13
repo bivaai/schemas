@@ -42,7 +42,7 @@
       "type": "string"
     },
     "posted_at": {
-      "type": "null"
+      "type": "string"
     },
     "credit_type": {
       "type": "string"
@@ -54,7 +54,7 @@
       "type": "string"
     },
     "payment_id": {
-      "type": "null"
+      "type": "string"
     },
     "settlement_utr": {
       "type": "string"
@@ -63,7 +63,7 @@
       "type": "string"
     },
     "order_receipt": {
-      "type": "null"
+      "type": "string"
     },
     "method": {
       "type": "string"
@@ -78,7 +78,7 @@
       "type": "string"
     },
     "dispute_id": {
-      "type": "null"
+      "type": "string"
     }
   },
   "required": [
