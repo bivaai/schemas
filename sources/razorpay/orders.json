@@ -21,7 +21,195 @@
       "type": "string"
     },
     "receipt": {
-      "type": "string"
+      "type": "null"
+    },
+    "payments": {
+      "type": "object",
+      "properties": {
+        "entity": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "entity": {
+                  "type": "string"
+                },
+                "amount": {
+                  "type": "integer"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "order_id": {
+                  "type": "string"
+                },
+                "invoice_id": {
+                  "type": "null"
+                },
+                "international": {
+                  "type": "boolean"
+                },
+                "method": {
+                  "type": "string"
+                },
+                "amount_refunded": {
+                  "type": "integer"
+                },
+                "refund_status": {
+                  "type": "null"
+                },
+                "captured": {
+                  "type": "boolean"
+                },
+                "description": {
+                  "type": "null"
+                },
+                "card_id": {
+                  "type": "string"
+                },
+                "card": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "entity": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "last4": {
+                      "type": "string"
+                    },
+                    "network": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "issuer": {
+                      "type": "null"
+                    },
+                    "international": {
+                      "type": "boolean"
+                    },
+                    "emi": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "entity",
+                    "name",
+                    "last4",
+                    "network",
+                    "type",
+                    "issuer",
+                    "international",
+                    "emi"
+                  ]
+                },
+                "bank": {
+                  "type": "null"
+                },
+                "wallet": {
+                  "type": "null"
+                },
+                "vpa": {
+                  "type": "null"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "contact": {
+                  "type": "string"
+                },
+                "notes": {
+                  "type": "array",
+                  "items": {}
+                },
+                "fee": {
+                  "type": "null"
+                },
+                "tax": {
+                  "type": "null"
+                },
+                "error_code": {
+                  "type": "null"
+                },
+                "error_description": {
+                  "type": "null"
+                },
+                "error_source": {
+                  "type": "null"
+                },
+                "error_step": {
+                  "type": "null"
+                },
+                "error_reason": {
+                  "type": "null"
+                },
+                "created_at": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "entity",
+                "amount",
+                "currency",
+                "status",
+                "order_id",
+                "invoice_id",
+                "international",
+                "method",
+                "amount_refunded",
+                "refund_status",
+                "captured",
+                "description",
+                "card_id",
+                "card",
+                "bank",
+                "wallet",
+                "vpa",
+                "email",
+                "contact",
+                "notes",
+                "fee",
+                "tax",
+                "error_code",
+                "error_description",
+                "error_source",
+                "error_step",
+                "error_reason",
+                "created_at"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "entity",
+        "count",
+        "items"
+      ]
+    },
+    "offer_id": {
+      "type": "null"
     },
     "status": {
       "type": "string"
@@ -30,23 +218,11 @@
       "type": "integer"
     },
     "notes": {
-      "type": "object",
-      "properties": {
-        "key1": {
-          "type": "string"
-        },
-        "key2": {
-          "type": "string"
-        },
-        "created_at": {
-          "type": "integer"
-        }
-      },
-      "required": [
-        "key1",
-        "key2",
-        "created_at"
-      ]
+      "type": "array",
+      "items": {}
+    },
+    "created_at": {
+      "type": "integer"
     }
   },
   "required": [
@@ -57,8 +233,11 @@
     "amount_due",
     "currency",
     "receipt",
+    "payments",
+    "offer_id",
     "status",
     "attempts",
-    "notes"
+    "notes",
+    "created_at"
   ]
 }
