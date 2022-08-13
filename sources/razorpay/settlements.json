@@ -2,39 +2,111 @@
   "$schema": "http://json-schema.org/draft-04/schema#",
   "type": "object",
   "properties": {
-    "id": {
+    "entity_id": {
       "type": "string"
     },
-    "entity": {
+    "type": {
       "type": "string"
+    },
+    "debit": {
+      "type": "integer"
+    },
+    "credit": {
+      "type": "integer"
     },
     "amount": {
       "type": "integer"
     },
-    "status": {
+    "currency": {
       "type": "string"
     },
-    "fees": {
+    "fee": {
       "type": "integer"
     },
     "tax": {
       "type": "integer"
     },
-    "utr": {
-      "type": "string"
+    "on_hold": {
+      "type": "boolean"
+    },
+    "settled": {
+      "type": "boolean"
     },
     "created_at": {
       "type": "integer"
+    },
+    "settled_at": {
+      "type": "integer"
+    },
+    "settlement_id": {
+      "type": "string"
+    },
+    "posted_at": {
+      "type": "null"
+    },
+    "credit_type": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    },
+    "payment_id": {
+      "type": "null"
+    },
+    "settlement_utr": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "order_receipt": {
+      "type": "null"
+    },
+    "method": {
+      "type": "string"
+    },
+    "card_network": {
+      "type": "string"
+    },
+    "card_issuer": {
+      "type": "string"
+    },
+    "card_type": {
+      "type": "string"
+    },
+    "dispute_id": {
+      "type": "null"
     }
   },
   "required": [
-    "id",
-    "entity",
+    "entity_id",
+    "type",
+    "debit",
+    "credit",
     "amount",
-    "status",
-    "fees",
+    "currency",
+    "fee",
     "tax",
-    "utr",
-    "created_at"
+    "on_hold",
+    "settled",
+    "created_at",
+    "settled_at",
+    "settlement_id",
+    "posted_at",
+    "credit_type",
+    "description",
+    "notes",
+    "payment_id",
+    "settlement_utr",
+    "order_id",
+    "order_receipt",
+    "method",
+    "card_network",
+    "card_issuer",
+    "card_type",
+    "dispute_id"
   ]
 }
