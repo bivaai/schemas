@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "fees": {
+      "type": "integer"
+    },
+    "tax": {
+      "type": "integer"
+    },
+    "utr": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "amount",
+    "status",
+    "fees",
+    "tax",
+    "utr",
+    "created_at"
+  ]
+}

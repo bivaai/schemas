@@ -1,0 +1,64 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "amount_paid": {
+      "type": "integer"
+    },
+    "amount_due": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "receipt": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "attempts": {
+      "type": "integer"
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "key1": {
+          "type": "string"
+        },
+        "key2": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "key1",
+        "key2",
+        "created_at"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "amount",
+    "amount_paid",
+    "amount_due",
+    "currency",
+    "receipt",
+    "status",
+    "attempts",
+    "notes"
+  ]
+}

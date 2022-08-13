@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "invoice_id": {
+      "type": "null"
+    },
+    "international": {
+      "type": "boolean"
+    },
+    "method": {
+      "type": "string"
+    },
+    "amount_refunded": {
+      "type": "integer"
+    },
+    "refund_status": {
+      "type": "null"
+    },
+    "captured": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "string"
+    },
+    "card_id": {
+      "type": "null"
+    },
+    "bank": {
+      "type": "null"
+    },
+    "wallet": {
+      "type": "null"
+    },
+    "vpa": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "items": {}
+    },
+    "fee": {
+      "type": "integer"
+    },
+    "tax": {
+      "type": "integer"
+    },
+    "error_code": {
+      "type": "null"
+    },
+    "error_description": {
+      "type": "null"
+    },
+    "error_source": {
+      "type": "null"
+    },
+    "error_step": {
+      "type": "null"
+    },
+    "error_reason": {
+      "type": "null"
+    },
+    "acquirer_data": {
+      "type": "object",
+      "properties": {
+        "rrn": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "rrn"
+      ]
+    },
+    "created_at": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "amount",
+    "currency",
+    "status",
+    "order_id",
+    "invoice_id",
+    "international",
+    "method",
+    "amount_refunded",
+    "refund_status",
+    "captured",
+    "description",
+    "card_id",
+    "bank",
+    "wallet",
+    "vpa",
+    "email",
+    "contact",
+    "notes",
+    "fee",
+    "tax",
+    "error_code",
+    "error_description",
+    "error_source",
+    "error_step",
+    "error_reason",
+    "acquirer_data",
+    "created_at"
+  ]
+}
