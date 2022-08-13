@@ -1,0 +1,80 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "phone": {
+      "type": "null"
+    },
+    "api_data_push": {
+      "type": "null"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "landmark": {
+      "type": "null"
+    },
+    "comment": {
+      "type": "string"
+    },
+    "clickpost_status_code": {
+      "type": "integer"
+    },
+    "awb": {
+      "type": "string"
+    },
+    "preferred_time": {
+      "type": "null"
+    },
+    "preferred_date": {
+      "type": "null"
+    },
+    "address": {
+      "type": "null"
+    },
+    "clickpost_status_description": {
+      "type": "string"
+    },
+    "reference_number": {
+      "type": "string"
+    },
+    "additional": {
+      "type": "object",
+      "properties": {
+        "internal_cst_responded": {
+          "type": "boolean"
+        },
+        "internal_username": {
+          "type": "string"
+        },
+        "internal_comment": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "internal_cst_responded",
+        "internal_username",
+        "internal_comment"
+      ]
+    }
+  },
+  "required": [
+    "phone",
+    "api_data_push",
+    "created_at",
+    "type",
+    "landmark",
+    "comment",
+    "clickpost_status_code",
+    "awb",
+    "preferred_time",
+    "preferred_date",
+    "address",
+    "clickpost_status_description",
+    "reference_number",
+    "additional"
+  ]
+}
