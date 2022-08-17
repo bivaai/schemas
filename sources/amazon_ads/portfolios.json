@@ -1,0 +1,17 @@
+{
+	"type": "object",
+	"properties": {
+		"portfolioId": {
+			"type": "integer"
+		},
+		"name": {
+			"type": "string"
+		},
+		"inBudget": {
+			"type": "boolean"
+		},
+		"state": {
+			"type": "string"
+		}
+	}
+}
