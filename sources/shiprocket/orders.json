@@ -26,7 +26,40 @@
     "customer_phone": {
       "type": "string"
     },
+    "customer_address": {
+      "type": "string"
+    },
+    "customer_address_2": {
+      "type": "string"
+    },
+    "customer_city": {
+      "type": "string"
+    },
+    "customer_state": {
+      "type": "string"
+    },
+    "customer_pincode": {
+      "type": "string"
+    },
+    "customer_country": {
+      "type": "string"
+    },
+    "customer_latitude": {
+      "type": "string"
+    },
+    "customer_longitude": {
+      "type": "string"
+    },
+    "customer_alternate_phone": {
+      "type": "string"
+    },
     "pickup_location": {
+      "type": "string"
+    },
+    "package_instructions": {
+      "type": "string"
+    },
+    "order_type": {
       "type": "string"
     },
     "payment_status": {
@@ -53,8 +86,17 @@
     "status_code": {
       "type": "integer"
     },
+    "awd_etds": {
+      "type": "string"
+    },
+    "master_status": {
+      "type": "string"
+    },
     "payment_method": {
       "type": "string"
+    },
+    "change_payment_mode": {
+      "type": "boolean"
     },
     "is_international": {
       "type": "integer"
@@ -68,8 +110,20 @@
     "created_at": {
       "type": "string"
     },
+    "updated_at": {
+      "type": "string"
+    },
+    "updated_on": {
+      "type": "string"
+    },
+    "pickup_boy_name": {
+      "type": "string"
+    },
+    "pickup_boy_contact_no": {
+      "type": "string"
+    },
     "products": {
-      "type": ["null", "array"],
+      "type": "array",
       "items": [
         {
           "type": "object",
@@ -98,6 +152,15 @@
             "status": {
               "type": "string"
             },
+            "price": {
+              "type": "string"
+            },
+            "product_cost": {
+              "type": "string"
+            },
+            "status_code": {
+              "type": "integer"
+            },
             "hsn": {
               "type": "string"
             }
@@ -111,13 +174,67 @@
             "product_id",
             "available",
             "status",
+            "price",
+            "product_cost",
+            "status_code",
             "hsn"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "channel_order_product_id": {
+              "type": "string"
+            },
+            "name": {
+              "type": "string"
+            },
+            "channel_sku": {
+              "type": "string"
+            },
+            "quantity": {
+              "type": "integer"
+            },
+            "product_id": {
+              "type": "integer"
+            },
+            "available": {
+              "type": "integer"
+            },
+            "status": {
+              "type": "string"
+            },
+            "price": {
+              "type": "string"
+            },
+            "product_cost": {
+              "type": "string"
+            },
+            "status_code": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "channel_order_product_id",
+            "name",
+            "channel_sku",
+            "quantity",
+            "product_id",
+            "available",
+            "status",
+            "price",
+            "product_cost",
+            "status_code"
           ]
         }
       ]
     },
     "shipments": {
-      "type": ["null", "array"],
+      "type": "array",
       "items": [
         {
           "type": "object",
@@ -131,72 +248,125 @@
             "courier": {
               "type": "string"
             },
+            "courier_id": {
+              "type": "string"
+            },
+            "shipping_charges": {
+              "type": "string"
+            },
             "weight": {
-              "type": "integer"
+              "type": "string"
             },
             "dimensions": {
               "type": "string"
             },
+            "shipped_date": {
+              "type": "string"
+            },
             "pickup_scheduled_date": {
-              "type": "null"
+              "type": "string"
+            },
+            "pickedup_timestamp": {
+              "type": "string"
             },
             "pickup_token_number": {
-              "type": "null"
+              "type": "string"
             },
             "awb": {
+              "type": "string"
+            },
+            "rto_awb": {
               "type": "string"
             },
             "return_awb": {
               "type": "string"
             },
             "volumetric_weight": {
-              "type": "integer"
+              "type": "number"
             },
             "pod": {
-              "type": "null"
+              "type": "string"
             },
             "etd": {
+              "type": "string"
+            },
+            "saral_etd": {
               "type": "string"
             },
             "rto_delivered_date": {
               "type": "string"
             },
             "delivered_date": {
-              "type": "null"
+              "type": "string"
             },
             "etd_escalation_btn": {
               "type": "boolean"
+            },
+            "rto_initiated_date": {
+              "type": "string"
+            },
+            "package_images": {
+              "type": "string"
+            },
+            "weight_action": {
+              "type": "string"
+            },
+            "status": {
+              "type": "integer"
+            },
+            "pickup_id": {
+              "type": "string"
+            },
+            "delivery_executive_name": {
+              "type": "string"
+            },
+            "delivery_executive_number": {
+              "type": "string"
+            },
+            "delay_reason": {
+              "type": "string"
             }
           },
           "required": [
             "id",
             "isd_code",
             "courier",
+            "courier_id",
+            "shipping_charges",
             "weight",
             "dimensions",
+            "shipped_date",
             "pickup_scheduled_date",
+            "pickedup_timestamp",
             "pickup_token_number",
             "awb",
+            "rto_awb",
             "return_awb",
             "volumetric_weight",
             "pod",
             "etd",
+            "saral_etd",
             "rto_delivered_date",
             "delivered_date",
-            "etd_escalation_btn"
+            "etd_escalation_btn",
+            "rto_initiated_date",
+            "package_images",
+            "weight_action",
+            "status",
+            "pickup_id",
+            "delivery_executive_name",
+            "delivery_executive_number",
+            "delay_reason"
           ]
         }
       ]
     },
+    "cod": {
+      "type": "integer"
+    },
     "activities": {
       "type": "array",
       "items": [
-        {
-          "type": "string"
-        },
-        {
-          "type": "string"
-        },
         {
           "type": "string"
         }
@@ -212,10 +382,582 @@
       "type": "array",
       "items": {}
     },
+    "pickup_exception_reason": {
+      "type": "string"
+    },
+    "rto_prediction": {
+      "type": "string"
+    },
     "show_escalation_btn": {
       "type": "integer"
     },
     "escalation_status": {
+      "type": "string"
+    },
+    "escalation_id": {
+      "type": "string"
+    },
+    "pii_removed": {
+      "type": "integer"
+    },
+    "allow_multiship": {
+      "type": "boolean"
+    },
+    "others": {
+      "type": "object",
+      "properties": {
+        "weight": {
+          "type": "number"
+        },
+        "quantity": {
+          "type": "integer"
+        },
+        "self_ship": {
+          "type": "boolean"
+        },
+        "buyer_psid": {
+          "type": "string"
+        },
+        "dimensions": {
+          "type": "string"
+        },
+        "billing_city": {
+          "type": "string"
+        },
+        "billing_name": {
+          "type": "string"
+        },
+        "company_name": {
+          "type": "string"
+        },
+        "billing_email": {
+          "type": "string"
+        },
+        "billing_phone": {
+          "type": "string"
+        },
+        "billing_state": {
+          "type": "string"
+        },
+        "currency_code": {
+          "type": "string"
+        },
+        "package_count": {
+          "type": "integer"
+        },
+        "reseller_name": {
+          "type": "string"
+        },
+        "customer_gstin": {
+          "type": "string"
+        },
+        "transaction_id": {
+          "type": "string"
+        },
+        "billing_address": {
+          "type": "string"
+        },
+        "billing_country": {
+          "type": "string"
+        },
+        "billing_pincode": {
+          "type": "integer"
+        },
+        "billing_isd_code": {
+          "type": "string"
+        },
+        "eway_bill_number": {
+          "type": "string"
+        },
+        "shipping_charges": {
+          "type": "string"
+        },
+        "billing_address_2": {
+          "type": "string"
+        },
+        "is_order_verified": {
+          "type": "integer"
+        },
+        "order_verified_at": {
+          "type": "string"
+        },
+        "shipping_service_type": {
+          "type": "string"
+        },
+        "transaction_date_time": {
+          "type": "string"
+        },
+        "store_rush_promise_sla": {
+          "type": "string"
+        },
+        "billing_alternate_phone": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "weight",
+        "quantity",
+        "self_ship",
+        "buyer_psid",
+        "dimensions",
+        "billing_city",
+        "billing_name",
+        "company_name",
+        "billing_email",
+        "billing_phone",
+        "billing_state",
+        "currency_code",
+        "package_count",
+        "reseller_name",
+        "customer_gstin",
+        "transaction_id",
+        "billing_address",
+        "billing_country",
+        "billing_pincode",
+        "billing_isd_code",
+        "eway_bill_number",
+        "shipping_charges",
+        "billing_address_2",
+        "is_order_verified",
+        "order_verified_at",
+        "shipping_service_type",
+        "transaction_date_time",
+        "store_rush_promise_sla",
+        "billing_alternate_phone"
+      ]
+    },
+    "package_list": {
+      "type": "object",
+      "properties": {
+        "packages": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "package_id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "package_id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "package_id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "package_id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "package_id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "package_id",
+                "name"
+              ]
+            }
+          ]
+        },
+        "selected": {
+          "type": "boolean"
+        },
+        "select_item": {
+          "type": "boolean"
+        },
+        "all_packages": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "package_id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "package_id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "package_id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "package_id",
+                "name"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "package_id": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "package_id",
+                "name"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "packages",
+        "selected",
+        "select_item",
+        "all_packages"
+      ]
+    },
+    "pickup_address_detail": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "integer"
+        },
+        "pickup_code": {
+          "type": "string"
+        },
+        "gstin": {
+          "type": "string"
+        },
+        "invoice_prefix": {
+          "type": "string"
+        },
+        "invoice_serial": {
+          "type": "string"
+        },
+        "address": {
+          "type": "string"
+        },
+        "address_2": {
+          "type": "string"
+        },
+        "address_type": {
+          "type": "string"
+        },
+        "city": {
+          "type": "string"
+        },
+        "state": {
+          "type": "string"
+        },
+        "country": {
+          "type": "string"
+        },
+        "pin_code": {
+          "type": "string"
+        },
+        "email": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "phone_verified": {
+          "type": "integer"
+        },
+        "alternate_phone": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "company_id": {
+          "type": "integer"
+        },
+        "status": {
+          "type": "integer"
+        },
+        "rto_address_id": {
+          "type": "integer"
+        },
+        "delhivery_clientware_id": {
+          "type": "string"
+        },
+        "delhivery_surface_clientware_id": {
+          "type": "string"
+        },
+        "delhivery_surface_standard_clientware_id": {
+          "type": "string"
+        },
+        "delhivery_surface_lite_clientware_id": {
+          "type": "string"
+        },
+        "delhivery_surface_10kg_clientware_id": {
+          "type": "string"
+        },
+        "delhivery_surface_20kg_clientware_id": {
+          "type": "string"
+        },
+        "sx_delhivery_clientware_id": {
+          "type": "string"
+        },
+        "sx_delhivery_surface_clientware_id": {
+          "type": "string"
+        },
+        "sx4_delhivery_surface_clientware_id": {
+          "type": "string"
+        },
+        "sx3_delhivery_surface_clientware_id": {
+          "type": "string"
+        },
+        "sx2_delhivery_surface_clientware_id": {
+          "type": "string"
+        },
+        "sx1_delhivery_surface_clientware_id": {
+          "type": "string"
+        },
+        "created_at": {
+          "type": "string"
+        },
+        "updated_at": {
+          "type": "string"
+        },
+        "gati_surface_customer_vendor_code": {
+          "type": "string"
+        },
+        "gati_sg_customer_vendor_code": {
+          "type": "string"
+        },
+        "delhivery_flash_air_clientware_id": {
+          "type": "string"
+        },
+        "updated_on": {
+          "type": "string"
+        },
+        "lat": {
+          "type": "string"
+        },
+        "long": {
+          "type": "string"
+        },
+        "delhivery_essential_5kg_clientware_id": {
+          "type": "string"
+        },
+        "warehouse_code": {
+          "type": "string"
+        },
+        "gati_surface_10kg_customer_vendor_code": {
+          "type": "string"
+        },
+        "extra_info": {
+          "type": "string"
+        },
+        "delhivery_documents_clientware_id": {
+          "type": "string"
+        },
+        "delhivery_documents_250gm_clientware_id": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "id",
+        "pickup_code",
+        "gstin",
+        "invoice_prefix",
+        "invoice_serial",
+        "address",
+        "address_2",
+        "address_type",
+        "city",
+        "state",
+        "country",
+        "pin_code",
+        "email",
+        "phone",
+        "phone_verified",
+        "alternate_phone",
+        "name",
+        "company_id",
+        "status",
+        "rto_address_id",
+        "delhivery_clientware_id",
+        "delhivery_surface_clientware_id",
+        "delhivery_surface_standard_clientware_id",
+        "delhivery_surface_lite_clientware_id",
+        "delhivery_surface_10kg_clientware_id",
+        "delhivery_surface_20kg_clientware_id",
+        "sx_delhivery_clientware_id",
+        "sx_delhivery_surface_clientware_id",
+        "sx4_delhivery_surface_clientware_id",
+        "sx3_delhivery_surface_clientware_id",
+        "sx2_delhivery_surface_clientware_id",
+        "sx1_delhivery_surface_clientware_id",
+        "created_at",
+        "updated_at",
+        "gati_surface_customer_vendor_code",
+        "gati_sg_customer_vendor_code",
+        "delhivery_flash_air_clientware_id",
+        "updated_on",
+        "lat",
+        "long",
+        "delhivery_essential_5kg_clientware_id",
+        "warehouse_code",
+        "gati_surface_10kg_customer_vendor_code",
+        "extra_info",
+        "delhivery_documents_clientware_id",
+        "delhivery_documents_250gm_clientware_id"
+      ]
+    },
+    "rto_address": {
+      "type": "array",
+      "items": {}
+    },
+    "re_escalate": {
+      "type": "integer"
+    },
+    "seller_request": {
+      "type": "string"
+    },
+    "engage": {
+      "type": "string"
+    },
+    "total_dead_weight": {
+      "type": "string"
+    },
+    "total_volumetric_weight": {
+      "type": "string"
+    },
+    "total_order_value": {
+      "type": "string"
+    },
+    "boxes": {
+      "type": "string"
+    },
+    "order_tag": {
+      "type": "array",
+      "items": {}
+    },
+    "is_return": {
+      "type": "integer"
+    },
+    "is_b2b": {
+      "type": "boolean"
+    },
+    "is_insurance_opt": {
+      "type": "boolean"
+    },
+    "manifest_id": {
+      "type": "string"
+    },
+    "manifest_generated": {
+      "type": "boolean"
+    },
+    "has_calls": {
+      "type": "boolean"
+    },
+    "pickup_booked_date": {
+      "type": "string"
+    },
+    "delivery_delayed": {
+      "type": "boolean"
+    },
+    "delay_reason": {
+      "type": "string"
+    },
+    "etd_date": {
+      "type": "string"
+    },
+    "out_for_delivery_date": {
+      "type": "string"
+    },
+    "delivered_date": {
+      "type": "string"
+    },
+    "awb_data": {
+      "type": "object",
+      "properties": {
+        "charges": {
+          "type": "object",
+          "properties": {
+            "zone": {
+              "type": "string"
+            },
+            "cod_charges": {
+              "type": "string"
+            },
+            "applied_weight_amount": {
+              "type": "string"
+            },
+            "freight_charges": {
+              "type": "string"
+            },
+            "applied_weight": {
+              "type": "string"
+            },
+            "charged_weight": {
+              "type": "string"
+            },
+            "charged_weight_amount": {
+              "type": "string"
+            },
+            "charged_weight_amount_rto": {
+              "type": "string"
+            },
+            "applied_weight_amount_rto": {
+              "type": "string"
+            },
+            "service_type_id": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "zone",
+            "cod_charges",
+            "applied_weight_amount",
+            "freight_charges",
+            "applied_weight",
+            "charged_weight",
+            "charged_weight_amount",
+            "charged_weight_amount_rto",
+            "applied_weight_amount_rto",
+            "service_type_id"
+          ]
+        }
+      },
+      "required": [
+        "charges"
+      ]
+    },
+    "first_out_for_delivery_date": {
+      "type": "string"
+    },
+    "picked_up_date": {
       "type": "string"
     },
     "escalation_history": {
@@ -232,7 +974,18 @@
     "customer_name",
     "customer_email",
     "customer_phone",
+    "customer_address",
+    "customer_address_2",
+    "customer_city",
+    "customer_state",
+    "customer_pincode",
+    "customer_country",
+    "customer_latitude",
+    "customer_longitude",
+    "customer_alternate_phone",
     "pickup_location",
+    "package_instructions",
+    "order_type",
     "payment_status",
     "total",
     "tax",
@@ -241,19 +994,59 @@
     "expedited",
     "status",
     "status_code",
+    "awd_etds",
+    "master_status",
     "payment_method",
+    "change_payment_mode",
     "is_international",
     "purpose_of_shipment",
     "channel_created_at",
     "created_at",
+    "updated_at",
+    "updated_on",
+    "pickup_boy_name",
+    "pickup_boy_contact_no",
     "products",
     "shipments",
+    "cod",
     "activities",
     "allow_return",
     "is_incomplete",
     "errors",
+    "pickup_exception_reason",
+    "rto_prediction",
     "show_escalation_btn",
     "escalation_status",
+    "escalation_id",
+    "pii_removed",
+    "allow_multiship",
+    "others",
+    "package_list",
+    "pickup_address_detail",
+    "rto_address",
+    "re_escalate",
+    "seller_request",
+    "engage",
+    "total_dead_weight",
+    "total_volumetric_weight",
+    "total_order_value",
+    "boxes",
+    "order_tag",
+    "is_return",
+    "is_b2b",
+    "is_insurance_opt",
+    "manifest_id",
+    "manifest_generated",
+    "has_calls",
+    "pickup_booked_date",
+    "delivery_delayed",
+    "delay_reason",
+    "etd_date",
+    "out_for_delivery_date",
+    "delivered_date",
+    "awb_data",
+    "first_out_for_delivery_date",
+    "picked_up_date",
     "escalation_history"
   ]
 }
