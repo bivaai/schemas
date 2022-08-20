@@ -15,7 +15,7 @@
       "type": "string"
     },
     "return_awb_code": {
-      "type": "string"
+      "type": "null"
     },
     "applied_weight": {
       "type": "string"
