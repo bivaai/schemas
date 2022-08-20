@@ -1,0 +1,46 @@
+{
+	"type": "object",
+	"properties": {
+		"portfolioId": {
+			"type": "integer"
+		},
+		"name": {
+			"type": "string"
+		},
+		"budget": {
+			"type": "object",
+			"properties": {
+				"amount": {
+					"type": "integer"
+				},
+				"currencyCode": {
+					"type": "string"
+				},
+				"policy": {
+					"type": "string"
+				},
+				"startDate": {
+					"type": "string"
+				},
+				"endDate": {
+					"type": "string"
+				}
+			}
+		},
+		"inBudget": {
+			"type": "boolean"
+		},
+		"state": {
+			"type": "string"
+		},
+		"creationDate": {
+			"type": "integer"
+		},
+		"lastUpdatedDate": {
+			"type": "integer"
+		},
+		"servingStatus": {
+			"type": "string"
+		}
+	}
+}
