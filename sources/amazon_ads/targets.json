@@ -16,6 +16,21 @@
 		"adGroupName": {
 			"type": "string"
 		},
+		"accountID": {
+			"type": "string"
+		},
+		"accountName": {
+			"type": "string"
+		},
+		"country": {
+			"type": "string"
+		},
+		"profileId": {
+			"type": "number"
+		},
+		"currencyCode": {
+			"type": "string"
+		},
 		"attributedBrandedSearches14d": {
 			"type": "integer"
 		},
