@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "d_ga_date": {
+      "type": "string"
+    },
+    "d_ga_searchkeyword": {
+      "type": "string"
+    },
+    "m_ga_searchdepth": {
+      "type": "integer"
+    },
+    "m_ga_searchduration": {
+      "type": "number"
+    },
+    "m_ga_searchexits": {
+      "type": "integer"
+    },
+    "m_ga_searchrefinements": {
+      "type": "integer"
+    },
+    "m_ga_searchresultviews": {
+      "type": "integer"
+    },
+    "m_ga_searchuniques": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "d_ga_date",
+    "d_ga_searchkeyword",
+    "m_ga_searchdepth",
+    "m_ga_searchduration",
+    "m_ga_searchexits",
+    "m_ga_searchrefinements",
+    "m_ga_searchresultviews",
+    "m_ga_searchuniques"
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "sku": {
+      "type": "string"
+    },
+    "hsn": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "category_code": {
+      "type": "string"
+    },
+    "category_name": {
+      "type": "string"
+    },
+    "category_tax_code": {
+      "type": "string"
+    },
+    "image": {
+      "type": "string"
+    },
+    "weight": {
+      "type": "string"
+    },
+    "size": {
+      "type": "string"
+    },
+    "cost_price": {
+      "type": "string"
+    },
+    "mrp": {
+      "type": "string"
+    },
+    "tax_code": {
+      "type": "string"
+    },
+    "low_stock": {
+      "type": "integer"
+    },
+    "ean": {
+      "type": "string"
+    },
+    "upc": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "quantity": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "string"
+    },
+    "dimensions": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "sku",
+    "hsn",
+    "name",
+    "description",
+    "category_code",
+    "category_name",
+    "category_tax_code",
+    "image",
+    "weight",
+    "size",
+    "cost_price",
+    "mrp",
+    "tax_code",
+    "low_stock",
+    "ean",
+    "upc",
+    "isbn",
+    "created_at",
+    "updated_at",
+    "quantity",
+    "color",
+    "brand",
+    "dimensions",
+    "status",
+    "type"
+  ]
+}

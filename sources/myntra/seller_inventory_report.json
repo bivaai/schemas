@@ -1,0 +1,48 @@
+    {
+    	"type": "object",
+    	"properties": {
+    		"Seller ID": {
+    			"type": "integer"
+    		},
+    		"Warehouse ID": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"Seller SKU Code": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"SKU ID": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"SKU Code": {
+    			"type": [
+				"null","string"]
+    		},
+    		"Style ID": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"Inventory Count": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"Blocked Count": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"Sellable Inventory Count": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"Is Active": {
+    			"type": [
+				"null","integer"]
+    		},
+    		"Modified On": {
+    			"type": [
+				"null","string"]
+    		}
+    	}
+    }

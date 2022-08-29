@@ -1,0 +1,74 @@
+{
+	"type": "object",
+	"properties": {
+		"campaign_id": {
+			"type": "string"
+		},
+		"campaign_name": {
+			"type": "string"
+		},
+		"campaign_status": {
+			"type": "string"
+		},
+		"Campaign Budget Type": {
+			"type": "string"
+		},
+		"campaign_budget": {
+			"type": "integer"
+		},
+		"campaign_spend": {
+			"type": "number"
+		},
+		"views": {
+			"type": "integer"
+		},
+		"clicks": {
+			"type": "integer"
+		},
+		"CTR": {
+			"type": "number"
+		},
+		"average_cpc": {
+			"type": "number"
+		},
+		"ppv_direct_click": {
+			"type": "integer"
+		},
+		"ppv_indirect_click": {
+			"type": "integer"
+		},
+		"units_direct_click": {
+			"type": "integer"
+		},
+		"units_indirect_click": {
+			"type": "integer"
+		},
+		"units_direct_view": {
+			"type": "integer"
+		},
+		"units_indirect_view": {
+			"type": "integer"
+		},
+		"CVR": {
+			"type": "number"
+		},
+		"revenue_direct_click": {
+			"type": "integer"
+		},
+		"revenue_indirect_click": {
+			"type": "integer"
+		},
+		"revenue_direct_view": {
+			"type": "integer"
+		},
+		"revenue_indirect_view": {
+			"type": "integer"
+		},
+		"Direct ROI": {
+			"type": "number"
+		},
+		"Indirect ROI": {
+			"type": "number"
+		}
+	}
+}

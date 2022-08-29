@@ -1,0 +1,175 @@
+{
+	"type": "object",
+	"properties": {
+		"campaignId": {
+			"type": "number"
+		},
+		"name": {
+			"type": "string"
+		},
+		"accountID": {
+			"type": "string"
+		},
+		"accountName": {
+			"type": "string"
+		},
+		"country": {
+			"type": "string"
+		},
+		"profileId": {
+			"type": "number"
+		},
+		"currencyCode": {
+			"type": "string"
+		},
+		"budget": {
+			"type": "number"
+		},
+		"budgetType": {
+			"type": "string"
+		},
+		"startDate": {
+			"type": "string"
+		},
+		"endDate": {
+			"type": "string"
+		},
+		"state": {
+			"type": "string"
+		},
+		"servingStatus": {
+			"type": "string"
+		},
+		"costType": {
+			"type": "string"
+		},
+		"tactic": {
+			"type": "string"
+		},
+		"deliveryProfile": {
+			"type": "string"
+		},
+		"portfolioId": {
+			"type": "number"
+		},
+		"bidOptimization": {
+			"type": "boolean"
+		},
+		"bidMultiplier": {
+			"type": "number"
+		},
+		"campaignType": {
+			"type": "string"
+		},
+		"targetingType": {
+			"type": "string"
+		},
+		"premiumBidAdjustment": {
+			"type": "boolean"
+		},
+		"bidding": {
+			"type": "object",
+			"properties": {
+				"strategy": {
+					"type": "string"
+				},
+				"adjustments": {
+					"type": "array",
+					"items": [
+						{
+							"type": "object",
+							"properties": {
+								"predicate": {
+									"type": "string"
+								},
+								"percentage": {
+									"type": "number"
+								}
+							}
+						}
+					]
+				}
+			}
+		},
+		"tags": {
+			"type": "object",
+			"properties": {
+				"PONumber": {
+					"type": "string"
+				},
+				"accountManager": {
+					"type": "string"
+				}
+			}
+		},
+		"bidAdjustments": {
+			"type": "array",
+			"items": [
+				{
+					"type": "object",
+					"properties": {
+						"bidAdjustmentPredicate": {
+							"type": "string"
+						},
+						"bidAdjustmentPercent": {
+							"type": "number"
+						}
+					}
+				}
+			]
+		},
+		"adFormat": {
+			"type": "string"
+		},
+		"creative": {
+			"type": "object",
+			"properties": {
+				"brandName": {
+					"type": "string"
+				},
+				"brandLogoAssetID": {
+					"type": "string"
+				},
+				"brandLogoUrl": {
+					"type": "string"
+				},
+				"headline": {
+					"type": "string"
+				},
+				"asins": {
+					"type": "array",
+					"items": [
+						{
+							"type": "string"
+						}
+					]
+				},
+				"videoMediaIds": {
+					"type": "array",
+					"items": [
+						{
+							"type": "string"
+						}
+					]
+				},
+				"type": {
+					"type": "string"
+				},
+				"shouldOptimizeAsins": {
+					"type": "boolean"
+				}
+			}
+		},
+		"landingPage": {
+			"type": "object",
+			"properties": {
+				"pageType": {
+					"type": "string"
+				},
+				"url": {
+					"type": "string"
+				}
+			}
+		}
+	}
+}
