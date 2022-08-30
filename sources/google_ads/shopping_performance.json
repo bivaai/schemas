@@ -1,0 +1,161 @@
+{
+  "type": "object",
+  "properties": {
+    "customer": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "descriptiveName": {
+          "type": "string"
+        },
+        "currencyCode": {
+          "type": "string"
+        },
+        "manager": {
+          "type": "boolean"
+        },
+        "status": {
+          "type": "string"
+        }
+      }
+    },
+    "campaign": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "status": {
+          "type": "string"
+        },
+        "servingStatus": {
+          "type": "string"
+        },
+        "biddingStrategyType": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "campaignBudget": {
+          "type": "string"
+        },
+        "startDate": {
+          "type": "string"
+        },
+        "endDate": {
+          "type": "string"
+        }
+      }
+    },
+    "adGroup": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        },
+        "type": {
+          "type": "string"
+        },
+        "id": {
+          "type": "string"
+        },
+        "name": {
+          "type": "string"
+        }
+      }
+    },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "clicks": {
+          "type": "string"
+        },
+        "conversionsFromInteractionsRate": {
+          "type": "integer"
+        },
+        "conversionsValue": {
+          "type": "integer"
+        },
+        "conversions": {
+          "type": "integer"
+        },
+        "costMicros": {
+          "type": "string"
+        },
+        "crossDeviceConversions": {
+          "type": "integer"
+        },
+        "ctr": {
+          "type": "integer"
+        },
+        "allConversionsFromInteractionsRate": {
+          "type": "integer"
+        },
+        "allConversionsValue": {
+          "type": "integer"
+        },
+        "allConversions": {
+          "type": "integer"
+        },
+        "averageCpc": {
+          "type": "integer"
+        },
+        "impressions": {
+          "type": "string"
+        }
+      }
+    },
+    "segments": {
+      "type": "object",
+      "properties": {
+        "device": {
+          "type": "string"
+        },
+        "productChannel": {
+          "type": "string"
+        },
+        "productCondition": {
+          "type": "string"
+        },
+        "date": {
+          "type": "string"
+        },
+        "productBiddingCategoryLevel1": {
+          "type": "string"
+        },
+        "productBiddingCategoryLevel2": {
+          "type": "string"
+        },
+        "productBrand": {
+          "type": "string"
+        },
+        "productCountry": {
+          "type": "string"
+        },
+        "productItemId": {
+          "type": "string"
+        },
+        "productTitle": {
+          "type": "string"
+        }
+      }
+    },
+    "shoppingPerformanceView": {
+      "type": "object",
+      "properties": {
+        "resourceName": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}
