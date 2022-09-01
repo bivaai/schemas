@@ -1,95 +1,95 @@
- {
- 	"type": "object",
- 	"properties": {
- 		"ORDER_ID": {
- 			"type": "integer"
- 		},
- 		"PACKET_ID": {
- 			"type": "integer"
- 		},
- 		"ORDER_PLACED_DATE": {
- 			"type": "string"
- 		},
- 		"SHIPPED_DATE": {
- 			"type": "string"
- 		},
- 		"DELIVERED_DATE": {
- 			"type": "string"
- 		},
- 		"RETURN_DATE": {
- 			"type": "string"
- 		},
- 		"RTO_CREATION_DATE": {
- 			"type": "string"
- 		},
- 		"RESTO_DATE": {
- 			"type": "string"
- 		},
- 		"RTV_DATE": {
- 			"type": "string"
- 		},
- 		"STATUS": {
- 			"type": "string"
- 		},
- 		"PAYMENT_STATUS": {
- 			"type": "string"
- 		},
- 		"PAYMENT_PROMISE_DATE": {
- 			"type": "string"
- 		},
- 		"UTR_REFERENCE_PREPAID": {
- 			"type": "string"
- 		},
- 		"UTR_REFERENCE_POSTPAID": {
- 			"type": "string"
- 		},
- 		"PAYMENT_MADE_DATE_POSTPAID": {
- 			"type": "string"
- 		},
- 		"PAYMENT_MADE_DATE_PREPAID": {
- 			"type": "string"
- 		},
- 		"REV_UTR_REFERENCE_POSTPAID": {
- 			"type": "string"
- 		},
- 		"REV_UTR_REFERENCE_PREPAID": {
- 			"type": "string"
- 		},
- 		"REV_PAYMENT_MADE_DATE_POSTPAID": {
- 			"type": "string"
- 		},
- 		"REV_PAYMENT_MADE_DATE_PREPAID": {
- 			"type": "string"
- 		},
- 		"MRP": {
- 			"type": "string"
- 		},
- 		"TOTAL_DISCOUNT": {
- 			"type": "integer"
- 		},
- 		"PRODUCT_DISCOUNT": {
- 			"type": "integer"
- 		},
- 		"COUPON_DISCOUNT": {
- 			"type": "integer"
- 		},
- 		"CART_DISCOUNT": {
- 			"type": "integer"
- 		},
- 		"PAYMENT_GATEWAY_DISCOUNT": {
- 			"type": "integer"
- 		},
- 		"CUSTOMER_PAID_AMOUNT": {
- 			"type": "integer"
- 		},
- 		"DEDUCTIONS": {
- 			"type": "number"
- 		},
- 		"PAYMENT_ELIGIBLE_FORWARD": {
- 			"type": "number"
- 		},
- 		"PAYMENT_ELIGIBLE_REVERSE": {
- 			"type": "integer"
- 		}
- 	}
- }
+{
+  "type": "object",
+  "properties": {
+    "Order release id": {
+      "type": "integer"
+    },
+    "Packet ID": {
+      "type": "integer"
+    },
+    "Order Placed Date": {
+      "type": "string"
+    },
+    "Shipped Date": {
+      "type": "string"
+    },
+    "Delivered Date": {
+      "type": "string"
+    },
+    "Return Creation Date": {
+      "type": "string"
+    },
+    "RTO creation Date": {
+      "type": "string"
+    },
+    "Restocked  Date": {
+      "type": "string"
+    },
+    "RTV GP Delivered  Date": {
+      "type": "string"
+    },
+    "Order Status": {
+      "type": "string"
+    },
+    "Payment Status": {
+      "type": "string"
+    },
+    "Payment Promise Date": {
+      "type": "string"
+    },
+    "UTR Reference Prepaid": {
+      "type": "string"
+    },
+    "UTR Reference Postpaid": {
+      "type": "string"
+    },
+    "Payment Triggered Date Postpaid": {
+      "type": "string"
+    },
+    "Payment Triggered Date Prepaid": {
+      "type": "string"
+    },
+    "Rev UTR Reference Postpaid": {
+      "type": "string"
+    },
+    "Rev UTR Reference Prepaid": {
+      "type": "string"
+    },
+    "Rev Payment Triggered Date Postpaid": {
+      "type": "string"
+    },
+    "Rev Payment Triggered Date Prepaid": {
+      "type": "string"
+    },
+    "MRP": {
+      "type": "integer"
+    },
+    "Total Discount": {
+      "type": "number"
+    },
+    "Product Discount": {
+      "type": "integer"
+    },
+    "Coupon Discount": {
+      "type": "number"
+    },
+    "Cart Discount": {
+      "type": "integer"
+    },
+    "Payment Gateway Discount": {
+      "type": "integer"
+    },
+    "Customer Paid Amount": {
+      "type": "integer"
+    },
+    "Deductions": {
+      "type": "integer"
+    },
+    "Payment Eligible Forward": {
+      "type": "integer"
+    },
+    "Payment Eligible Reverse": {
+      "type": "integer"
+    }
+  }
+}
