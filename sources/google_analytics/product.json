@@ -11,6 +11,12 @@
     "d_ga_productname": {
       "type": "string"
     },
+    "d_ga_sourcemedium": {
+      "type": "string"
+    },
+    "d_ga_campaign": {
+      "type": "string"
+    },
     "d_ga_productsku": {
       "type": "string"
     },
