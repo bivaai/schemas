@@ -1,0 +1,243 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "amount_paid": {
+      "type": "integer"
+    },
+    "amount_due": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "receipt": {
+      "type": "string"
+    },
+    "payments": {
+      "type": "object",
+      "properties": {
+        "entity": {
+          "type": "string"
+        },
+        "count": {
+          "type": "integer"
+        },
+        "items": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "id": {
+                  "type": "string"
+                },
+                "entity": {
+                  "type": "string"
+                },
+                "amount": {
+                  "type": "integer"
+                },
+                "currency": {
+                  "type": "string"
+                },
+                "status": {
+                  "type": "string"
+                },
+                "order_id": {
+                  "type": "string"
+                },
+                "invoice_id": {
+                  "type": "string"
+                },
+                "international": {
+                  "type": "boolean"
+                },
+                "method": {
+                  "type": "string"
+                },
+                "amount_refunded": {
+                  "type": "integer"
+                },
+                "refund_status": {
+                  "type": "string"
+                },
+                "captured": {
+                  "type": "boolean"
+                },
+                "description": {
+                  "type": "string"
+                },
+                "card_id": {
+                  "type": "string"
+                },
+                "card": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string"
+                    },
+                    "entity": {
+                      "type": "string"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "last4": {
+                      "type": "string"
+                    },
+                    "network": {
+                      "type": "string"
+                    },
+                    "type": {
+                      "type": "string"
+                    },
+                    "issuer": {
+                      "type": "string"
+                    },
+                    "international": {
+                      "type": "boolean"
+                    },
+                    "emi": {
+                      "type": "boolean"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "entity",
+                    "name",
+                    "last4",
+                    "network",
+                    "type",
+                    "issuer",
+                    "international",
+                    "emi"
+                  ]
+                },
+                "bank": {
+                  "type": "string"
+                },
+                "wallet": {
+                  "type": "string"
+                },
+                "vpa": {
+                  "type": "string"
+                },
+                "email": {
+                  "type": "string"
+                },
+                "contact": {
+                  "type": "string"
+                },
+                "notes": {
+                  "type": "array",
+                  "items": {}
+                },
+                "fee": {
+                  "type": "string"
+                },
+                "tax": {
+                  "type": "string"
+                },
+                "error_code": {
+                  "type": "string"
+                },
+                "error_description": {
+                  "type": "string"
+                },
+                "error_source": {
+                  "type": "string"
+                },
+                "error_step": {
+                  "type": "string"
+                },
+                "error_reason": {
+                  "type": "string"
+                },
+                "created_at": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "id",
+                "entity",
+                "amount",
+                "currency",
+                "status",
+                "order_id",
+                "invoice_id",
+                "international",
+                "method",
+                "amount_refunded",
+                "refund_status",
+                "captured",
+                "description",
+                "card_id",
+                "card",
+                "bank",
+                "wallet",
+                "vpa",
+                "email",
+                "contact",
+                "notes",
+                "fee",
+                "tax",
+                "error_code",
+                "error_description",
+                "error_source",
+                "error_step",
+                "error_reason",
+                "created_at"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "entity",
+        "count",
+        "items"
+      ]
+    },
+    "offer_id": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "attempts": {
+      "type": "integer"
+    },
+    "notes": {
+      "type": "array",
+      "items": {}
+    },
+    "created_at": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "amount",
+    "amount_paid",
+    "amount_due",
+    "currency",
+    "receipt",
+    "payments",
+    "offer_id",
+    "status",
+    "attempts",
+    "notes",
+    "created_at"
+  ]
+}

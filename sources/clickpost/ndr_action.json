@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "waybill": {
+      "type": "string"
+    },
+    "act": {
+      "type": "string"
+    },
+    "action_data": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "add": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "deferred_date": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "name",
+        "add",
+        "phone",
+        "deferred_date"
+      ]
+    }
+  },
+  "required": [
+    "waybill",
+    "act",
+    "action_data"
+  ]
+}

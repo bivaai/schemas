@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "contact": {
+      "type": "string"
+    },
+    "gstin": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "object",
+      "properties": {
+        "note_key_1": {
+          "type": "string"
+        },
+        "note_key_2": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "note_key_1",
+        "note_key_2"
+      ]
+    },
+    "created_at ": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "name",
+    "email",
+    "contact",
+    "gstin",
+    "notes",
+    "created_at "
+  ]
+}

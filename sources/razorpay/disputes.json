@@ -1,0 +1,116 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "entity": {
+      "type": "string"
+    },
+    "payment_id": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "amount_deducted": {
+      "type": "integer"
+    },
+    "reason_code": {
+      "type": "string"
+    },
+    "respond_by": {
+      "type": "integer"
+    },
+    "status": {
+      "type": "string"
+    },
+    "phase": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "integer"
+    },
+    "evidence": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "integer"
+        },
+        "summary": {
+          "type": "null"
+        },
+        "shipping_proof": {
+          "type": "null"
+        },
+        "billing_proof": {
+          "type": "null"
+        },
+        "cancellation_proof": {
+          "type": "null"
+        },
+        "customer_communication": {
+          "type": "null"
+        },
+        "proof_of_service": {
+          "type": "null"
+        },
+        "explanation_letter": {
+          "type": "null"
+        },
+        "refund_confirmation": {
+          "type": "null"
+        },
+        "access_activity_log": {
+          "type": "null"
+        },
+        "refund_cancellation_policy": {
+          "type": "null"
+        },
+        "term_and_conditions": {
+          "type": "null"
+        },
+        "others": {
+          "type": "null"
+        },
+        "submitted_at": {
+          "type": "null"
+        }
+      },
+      "required": [
+        "amount",
+        "summary",
+        "shipping_proof",
+        "billing_proof",
+        "cancellation_proof",
+        "customer_communication",
+        "proof_of_service",
+        "explanation_letter",
+        "refund_confirmation",
+        "access_activity_log",
+        "refund_cancellation_policy",
+        "term_and_conditions",
+        "others",
+        "submitted_at"
+      ]
+    }
+  },
+  "required": [
+    "id",
+    "entity",
+    "payment_id",
+    "amount",
+    "currency",
+    "amount_deducted",
+    "reason_code",
+    "respond_by",
+    "status",
+    "phase",
+    "created_at",
+    "evidence"
+  ]
+}

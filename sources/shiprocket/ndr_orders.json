@@ -1,0 +1,177 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "integer"
+    },
+    "shipment_id": {
+      "type": "integer"
+    },
+    "customer_name": {
+      "type": "string"
+    },
+    "customer_email": {
+      "type": "string"
+    },
+    "customer_phone": {
+      "type": "string"
+    },
+    "customer_address": {
+      "type": "string"
+    },
+    "customer_address_2": {
+      "type": "string"
+    },
+    "customer_city": {
+      "type": "string"
+    },
+    "customer_state": {
+      "type": "string"
+    },
+    "customer_pincode": {
+      "type": "string"
+    },
+    "payment_status": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "status_code": {
+      "type": "integer"
+    },
+    "payment_method": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "string"
+    },
+    "attempts": {
+      "type": "integer"
+    },
+    "ndr_raised_at": {
+      "type": "string"
+    },
+    "courier": {
+      "type": "string"
+    },
+    "awb_code": {
+      "type": "string"
+    },
+    "escalation_status": {
+      "type": "string"
+    },
+    "product_name": {
+      "type": "string"
+    },
+    "product_price": {
+      "type": "string"
+    },
+    "shipment_channel_id": {
+      "type": "integer"
+    },
+    "history": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "ndr_id": {
+              "type": "integer"
+            },
+            "ndr_reason": {
+              "type": "string"
+            },
+            "action_by": {
+              "type": "integer"
+            },
+            "ndr_attempt": {
+              "type": "integer"
+            },
+            "medium": {
+              "type": "null"
+            },
+            "ndr_push_status": {
+              "type": "integer"
+            },
+            "comment": {
+              "type": "string"
+            },
+            "call_center_call_recording": {
+              "type": "string"
+            },
+            "call_center_recording_date": {
+              "type": "string"
+            },
+            "proof_recording": {
+              "type": "null"
+            },
+            "proof_image": {
+              "type": "null"
+            },
+            "sms_response": {
+              "type": "string"
+            },
+            "ndr_raised_at": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "id",
+            "ndr_id",
+            "ndr_reason",
+            "action_by",
+            "ndr_attempt",
+            "medium",
+            "ndr_push_status",
+            "comment",
+            "call_center_call_recording",
+            "call_center_recording_date",
+            "proof_recording",
+            "proof_image",
+            "sms_response",
+            "ndr_raised_at"
+          ]
+        }
+      ]
+    },
+    "delivered_date": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "id",
+    "shipment_id",
+    "customer_name",
+    "customer_email",
+    "customer_phone",
+    "customer_address",
+    "customer_address_2",
+    "customer_city",
+    "customer_state",
+    "customer_pincode",
+    "payment_status",
+    "status",
+    "status_code",
+    "payment_method",
+    "created_at",
+    "reason",
+    "attempts",
+    "ndr_raised_at",
+    "courier",
+    "awb_code",
+    "escalation_status",
+    "product_name",
+    "product_price",
+    "shipment_channel_id",
+    "history",
+    "delivered_date"
+  ]
+}
