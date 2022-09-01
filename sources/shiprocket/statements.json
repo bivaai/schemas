@@ -1,0 +1,84 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "transaction_id": {
+      "type": "string"
+    },
+    "order_id": {
+      "type": "string"
+    },
+    "channel_order_id": {
+      "type": "string"
+    },
+    "awb_code": {
+      "type": "string"
+    },
+    "return_awb_code": {
+      "type": "string"
+    },
+    "applied_weight": {
+      "type": "string"
+    },
+    "charged_weight": {
+      "type": "string"
+    },
+    "billed_weight": {
+      "type": "string"
+    },
+    "action": {
+      "type": "string"
+    },
+    "charge": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "debit_amount": {
+      "type": "string"
+    },
+    "credit_amount": {
+      "type": "string"
+    },
+    "balance_amount": {
+      "type": "string"
+    },
+    "balance_weight": {
+      "type": "integer"
+    },
+    "volumetric_weight": {
+      "type": "string"
+    },
+    "entered_weight": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": "string"
+    },
+    "can_ship": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "transaction_id",
+    "order_id",
+    "channel_order_id",
+    "awb_code",
+    "return_awb_code",
+    "applied_weight",
+    "charged_weight",
+    "billed_weight",
+    "action",
+    "charge",
+    "description",
+    "debit_amount",
+    "credit_amount",
+    "balance_amount",
+    "balance_weight",
+    "volumetric_weight",
+    "entered_weight",
+    "created_at",
+    "can_ship"
+  ]
+}

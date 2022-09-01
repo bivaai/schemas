@@ -2,9 +2,24 @@
 	"type": "object",
 	"properties": {
 		"adGroupId": {
-			"type": "integer"
+			"type": "number"
 		},
 		"adGroupName": {
+			"type": "string"
+		},
+		"accountID": {
+			"type": "string"
+		},
+		"accountName": {
+			"type": "string"
+		},
+		"country": {
+			"type": "string"
+		},
+		"profileId": {
+			"type": "number"
+		},
+		"currencyCode": {
 			"type": "string"
 		},
 		"attributedBrandedSearches14d": {
@@ -47,43 +62,43 @@
 			"type": "integer"
 		},
 		"attributedOrderRateNewToBrand14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedOrdersNewToBrand14d": {
 			"type": "integer"
 		},
 		"attributedOrdersNewToBrandPercentage14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales14dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales1d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales1dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales30d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales30dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales7d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSales7dSameSKU": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSalesNewToBrand14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedSalesNewToBrandPercentage14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"attributedUnitsOrdered14d": {
 			"type": "integer"
@@ -113,19 +128,19 @@
 			"type": "integer"
 		},
 		"attributedUnitsOrderedNewToBrandPercentage14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"bidOptimization": {
 			"type": "string"
 		},
 		"campaignBudget": {
-			"type": "integer"
+			"type": "number"
 		},
 		"campaignBudgetType": {
 			"type": "string"
 		},
 		"campaignId": {
-			"type": "integer"
+			"type": "number"
 		},
 		"campaignName": {
 			"type": "string"
@@ -137,7 +152,7 @@
 			"type": "integer"
 		},
 		"cost": {
-			"type": "integer"
+			"type": "number"
 		},
 		"currency": {
 			"type": "string"
@@ -152,10 +167,10 @@
 			"type": "integer"
 		},
 		"vctr": {
-			"type": "integer"
+			"type": "number"
 		},
 		"video5SecondViewRate": {
-			"type": "integer"
+			"type": "number"
 		},
 		"video5SecondViews": {
 			"type": "integer"
@@ -191,10 +206,10 @@
 			"type": "integer"
 		},
 		"viewAttributedSales14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"viewAttributedSalesNewToBrand14d": {
-			"type": "integer"
+			"type": "number"
 		},
 		"viewAttributedUnitsOrdered14d": {
 			"type": "integer"
@@ -206,7 +221,16 @@
 			"type": "integer"
 		},
 		"vtr": {
-			"type": "integer"
+			"type": "number"
+		},
+		"reportDate": {
+			"type": "date"
+		},
+		"adType": {
+			"type": "string"
+		},
+		"adSubType": {
+			"type": "string"
 		}
 	}
 }

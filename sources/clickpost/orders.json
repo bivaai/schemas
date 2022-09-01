@@ -1,0 +1,56 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "created_at": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string"
+    },
+    "clickpost_status_description": {
+      "type": "string"
+    },
+    "clickpost_status_code": {
+      "type": "integer"
+    },
+    "courier_partner": {
+      "type": "integer"
+    },
+    "waybill": {
+      "type": "string"
+    },
+    "updated_at": {
+      "type": "string"
+    },
+    "account_code": {
+      "type": "string"
+    },
+    "reference_number": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "remark": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "created_at",
+    "timestamp",
+    "clickpost_status_description",
+    "clickpost_status_code",
+    "courier_partner",
+    "waybill",
+    "updated_at",
+    "account_code",
+    "reference_number",
+    "status",
+    "location",
+    "remark"
+  ]
+}

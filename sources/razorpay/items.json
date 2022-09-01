@@ -1,0 +1,72 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "amount": {
+      "type": "integer"
+    },
+    "unit_amount": {
+      "type": "integer"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
+    "unit": {
+      "type": "null"
+    },
+    "tax_inclusive": {
+      "type": "boolean"
+    },
+    "hsn_code": {
+      "type": "null"
+    },
+    "sac_code": {
+      "type": "null"
+    },
+    "tax_rate": {
+      "type": "null"
+    },
+    "tax_id": {
+      "type": "null"
+    },
+    "tax_group_id": {
+      "type": "null"
+    },
+    "created_at": {
+      "type": "integer"
+    }
+  },
+  "required": [
+    "id",
+    "active",
+    "name",
+    "description",
+    "amount",
+    "unit_amount",
+    "currency",
+    "type",
+    "unit",
+    "tax_inclusive",
+    "hsn_code",
+    "sac_code",
+    "tax_rate",
+    "tax_id",
+    "tax_group_id",
+    "created_at"
+  ]
+}
