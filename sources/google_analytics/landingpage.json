@@ -20,6 +20,9 @@
     "d_ga_sourcemedium": {
       "type": "string"
     },
+    "d_ga_landingpagepath": {
+      "type": "string"
+    },
     "m_ga_bounces": {
       "type": "integer"
     },
@@ -39,6 +42,9 @@
       "type": "number"
     },
     "m_ga_transactions": {
+      "type": "integer"
+    },
+    "m_ga_exits": {
       "type": "integer"
     }
   },
