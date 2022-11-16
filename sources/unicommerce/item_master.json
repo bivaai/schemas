@@ -1,0 +1,137 @@
+{
+	"type": "object",
+	"properties": {
+		"Category Code": {
+			"type": "string"
+		},
+		"Product Code": {
+			"type": "string"
+		},
+		"Name": {
+			"type": "string"
+		},
+		"Description": {
+			"type": "string"
+		},
+		"Scan Identifier": {
+			"type": "string"
+		},
+		"Requires Customization": {
+			"type": "boolean"
+		},
+		"Length (mm)": {
+			"type": "integer"
+		},
+		"Width (mm)": {
+			"type": "integer"
+		},
+		"Height (mm)": {
+			"type": "integer"
+		},
+		"Weight (gms)": {
+			"type": "integer"
+		},
+		"EAN": {
+			"type": "string"
+		},
+		"UPC": {
+			"type": "string"
+		},
+		"ISBN": {
+			"type": "string"
+		},
+		"Color": {
+			"type": "string"
+		},
+		"Size": {
+			"type": "string"
+		},
+		"Brand": {
+			"type": "string"
+		},
+		"Item Detail Fields": {
+			"type": "string"
+		},
+		"Tags": {
+			"type": "string"
+		},
+		"Image Url": {
+			"type": "string"
+		},
+		"Product Page Url": {
+			"type": "string"
+		},
+		"Tax Type Code": {
+			"type": "string"
+		},
+		"GST Tax Type Code": {
+			"type": "string"
+		},
+		"Base Price": {
+			"type": "number"
+		},
+		"Cost Price": {
+			"type": "number"
+		},
+		"TAT": {
+			"type": "string"
+		},
+		"MRP": {
+			"type": "number"
+		},
+		"Updated": {
+			"type": "string"
+		},
+		"Category Name": {
+			"type": "string"
+		},
+		"Enabled": {
+			"type": "boolean"
+		},
+		"Type": {
+			"type": "string"
+		},
+		"Component Product Code": {
+			"type": "string"
+		},
+		"Component Quantity": {
+			"type": "integer"
+		},
+		"Component Price": {
+			"type": "number"
+		},
+		"HSN CODE": {
+			"type": "string"
+		},
+		"Tax Calculation Type": {
+			"type": "string"
+		},
+		"Batch Group": {
+			"type": "string"
+		},
+		"GRN expiry tolerance (in days)": {
+			"type": "integer"
+		},
+		"Dispatch expiry tolerance (in days)": {
+			"type": "integer"
+		},
+		"Return expiry tolerance (in days)": {
+			"type": "integer"
+		},
+		"Expirable": {
+			"type": "string"
+		},
+		"Determine Expiry From": {
+			"type": "string"
+		},
+		"Shelf Life": {
+			"type": "string"
+		},
+		"Expiry Date": {
+			"type": "string"
+		},
+		"Sku Type": {
+			"type": "string"
+		}
+	}
+}

@@ -1,0 +1,44 @@
+{
+	"type": "object",
+	"properties": {
+		"Channel Name": {
+			"type": "string"
+		},
+		"Product Name": {
+			"type": "string"
+		},
+		"Channel Product Id": {
+			"type": "string"
+		},
+		"Seller Sku Code": {
+			"type": "string"
+		},
+		"Uniware Sku Code": {
+			"type": "string"
+		},
+		"Blocked Inventory": {
+			"type": "integer"
+		},
+		"Disabled": {
+			"type": "boolean"
+		},
+		"Selling Price": {
+			"type": "number"
+		},
+		"Max Retail Price": {
+			"type": "number"
+		},
+		"Currency Code": {
+			"type": "string"
+		},
+		"Status Code": {
+			"type": "string"
+		},
+		"Next Inventory Update": {
+			"type": "integer"
+		},
+		"Last Inventory Update": {
+			"type": "integer"
+		}
+	}
+}
