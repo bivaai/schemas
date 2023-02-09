@@ -1,0 +1,188 @@
+{
+	"type": "object",
+	"properties": {
+		"Payment Details NEFT ID": {
+			"type": "string"
+		},
+		"Payment Details Neft Type": {
+			"type": "string"
+		},
+		"Payment Details  Payment Date": {
+			"type": "string"
+		},
+		"Payment Details Bank Settlement Value (Rs.) = SUM(J:Q)": {
+			"type": "number"
+		},
+		"Payment Details Input GST + TCS Credits (Rs.)[GST+TCS]": {
+			"type": "number"
+		},
+		"Payment Details Income Tax Credits (Rs.)[TDS]": {
+			"type": "number"
+		},
+		"Transaction Summary Order ID": {
+			"type": "string"
+		},
+		"Transaction Summary Order item ID": {
+			"type": "integer"
+		},
+		"Transaction Summary Sale Amount (Rs.)": {
+			"type": "integer"
+		},
+		"Transaction Summary Total Offer Amount (Rs.)": {
+			"type": "integer"
+		},
+		"Transaction Summary My share (Rs.)": {
+			"type": "integer"
+		},
+		"Transaction Summary Customer Add-ons Amount (Rs.)": {
+			"type": "integer"
+		},
+		"Transaction Summary Marketplace Fee (Rs.)= SUM (U:AH)": {
+			"type": "number"
+		},
+		"Transaction Summary Taxes (Rs.)": {
+			"type": "number"
+		},
+		"Transaction Summary Protection Fund (Rs.)": {
+			"type": "integer"
+		},
+		"Transaction Summary Refund (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Tier": {
+			"type": "string"
+		},
+		"Marketplace Fees Commission Rate (%)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Commission (Rs.)": {
+			"type": "number"
+		},
+		"Marketplace Fees Fixed Fee  (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Collection Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Pick And Pack Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Shipping Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Reverse Shipping Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees No Cost Emi Fee Reimbursement(Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Installation Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Tech Visit Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Uninstallation & Packaging Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Customer Add-ons Amount Recovery (Rs.)": {
+			"type": "number"
+		},
+		"Marketplace Fees Franchise Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Shopsy Marketing Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Marketplace Fees Product Cancellation Fee (Rs.)": {
+			"type": "integer"
+		},
+		"Taxes TCS (Rs.)": {
+			"type": "number"
+		},
+		"Taxes TDS (Rs.)": {
+			"type": "number"
+		},
+		"Taxes GST on MP Fees (Rs.)": {
+			"type": "number"
+		},
+		"Shipping Details Dead Weight (kgs)": {
+			"type": "number"
+		},
+		"Shipping Details Length*Breadth*Height": {
+			"type": "string"
+		},
+		"Shipping Details Volumetric Weight (kgs)": {
+			"type": "number"
+		},
+		"Shipping Details Chargeable Weight Source": {
+			"type": "string"
+		},
+		"Shipping Details Chargeable Weight Type": {
+			"type": "string"
+		},
+		"Shipping Details Chargeable Wt. Slab (In Kgs)": {
+			"type": "string"
+		},
+		"Shipping Details Shipping Zone": {
+			"type": "string"
+		},
+		"Order Details Order Date": {
+			"type": "string"
+		},
+		"Order Details Dispatch Date": {
+			"type": "string"
+		},
+		"Order Details Fulfilment Type": {
+			"type": "string"
+		},
+		"Order Details Seller SKU": {
+			"type": "string"
+		},
+		"Order Details Quantity": {
+			"type": "integer"
+		},
+		"Order Details Product Sub Category": {
+			"type": "string"
+		},
+		"Order Details Additional Information": {
+			"type": "string"
+		},
+		"Order Details Return Type": {
+			"type": "string"
+		},
+		"Order Details Shopsy Order": {
+			"type": "string"
+		},
+		"Order Details Item Return Status": {
+			"type": "string"
+		},
+		"Buyer Invoice Details Invoice ID": {
+			"type": "string"
+		},
+		"Buyer Invoice Details Invoice Date": {
+			"type": "string"
+		},
+		"Buyer Sale Details Sale Amount Total (Rs.)": {
+			"type": "integer"
+		},
+		"Buyer Sale Details Total Offer Amount Total (Rs.) = SUM (BL:BM)": {
+			"type": "integer"
+		},
+		"Buyer Sale Details Total Offer Amount Free Shipping Offer (Rs.)": {
+			"type": "string"
+		},
+		"Buyer Sale Details Total Offer Amount Non-Free Shipping Offer (Rs.)": {
+			"type": "string"
+		},
+		"Buyer Sale Details My Share Total (Rs.) = SUM(BO:BP)": {
+			"type": "integer"
+		},
+		"Buyer Sale Details My Share Free Shipping Offer (Rs.)": {
+			"type": "string"
+		},
+		"Buyer Sale Details My Share Non-Free Shipping Offer (Rs.)": {
+			"type": "string"
+		}
+	}
+}
