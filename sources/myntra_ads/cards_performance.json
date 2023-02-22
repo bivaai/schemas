@@ -36,6 +36,9 @@
 		},
 		"Add To Wishlist": {
 			"type": "integer"
+		},
+		"List Views": {
+			"type": "integer"
 		}
 	}
 }
