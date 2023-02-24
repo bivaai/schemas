@@ -1,0 +1,29 @@
+          {
+	"type": "object",
+	"properties": {
+		"Brand": {
+			"type": "string"
+		},
+		"Brand Code": {
+			"type": "string"
+		},
+		"Ad Name": {
+			"type": "string"
+		},
+		"Adid": {
+			"type": "string"
+		},
+		"Direct Style Id": {
+			"type": "integer"
+		},
+		"Indirect Style Id": {
+			"type": "integer"
+		},
+		"Indirect Quantity": {
+			"type": "integer"
+		},
+		"Indirect Revenue": {
+			"type": "number"
+		}
+	}
+}
