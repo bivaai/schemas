@@ -14,10 +14,10 @@
 			"type": "string"
 		},
 		"Budget Available": {
-			"type": "float"
+			"type": "number"
 		},
 		"Budget Consumed": {
-			"type": "float"
+			"type": "number"
 		},
 		"Start Campaign Date": {
 			"type": "string"
