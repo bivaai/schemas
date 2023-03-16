@@ -1,0 +1,62 @@
+{
+	"type": "object",
+	"properties": {
+		"Adid": {
+			"type": "string"
+		},
+		"Ad Name": {
+			"type": "string"
+		},
+		"Ad Status": {
+			"type": "string"
+		},
+		"Brand": {
+			"type": "string"
+		},
+		"Budget Available": {
+			"type": "float"
+		},
+		"Budget Consumed": {
+			"type": "float"
+		},
+		"Start Campaign Date": {
+			"type": "string"
+		},
+		"End Campaign Date": {
+			"type": "string"
+		},
+		"Impressions": {
+			"type": "integer"
+		},
+		"Clicks": {
+			"type": "integer"
+		},
+		"CTR": {
+			"type": "number"
+		},
+		"Cost Per Click": {
+			"type": "number"
+		},
+		"Total Ad Budget": {
+			"type": "number"
+		},
+		"Add To Cart": {
+			"type": "integer"
+		},
+		"Revenue": {
+			"type": "number"
+		},
+		"Quantity": {
+			"type": "integer"
+		},
+		"ROI": {
+			"type": "number"
+		},
+		"Direct Revenue": {
+			"type": "number"
+		},
+		"Indirect Revenue": {
+			"type": "number"
+		}
+	}
+}
