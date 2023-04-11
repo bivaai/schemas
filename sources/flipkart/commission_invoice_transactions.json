@@ -1,0 +1,49 @@
+{ "type": "object",
+    "properties": {
+      "Service Type": {
+        "type": "string"
+      },
+      "Order Item ID": {
+        "type": "string"
+      },
+      "Recall ID": {
+        "type": "string"
+      },
+      "Warehouse State Code": {
+        "type": "string"
+      },
+      "Fee Name": {
+        "type": "string"
+      },
+      "Total Fee Amount(Rs.)": {
+        "type": "number"
+      },
+      "Fee Amount (Rs.)": {
+        "type": "number"
+      },
+      "Fee Waiver Amount(Rs.)": {
+        "type": "number"
+      },
+      "CGST Rate": {
+        "type": "number"
+      },
+      "SGST": {
+        "type": "number"
+      },
+      "IGST Rate": {
+        "type": "number"
+      },
+      "CGST Amount": {
+        "type": "number"
+      },
+      "IGST Amount": {
+        "type": "number"
+      },
+      "Total Tax Amount (Rs.)": {
+        "type": "number"
+      },
+      "Date": {
+        "type": "string"
+      }
+    }
+}
