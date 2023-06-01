@@ -346,6 +346,7 @@
         "tds_amount_postpaid": {
           "type": "number"
         }
-}
+
+      }
 }
 
