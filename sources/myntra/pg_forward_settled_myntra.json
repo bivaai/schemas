@@ -8,10 +8,10 @@
           "type": "integer"
         },
         "return_type": {
-          "type": "null"
+          "type": "string"
         },
         "return_date": {
-          "type": "null"
+          "type": "string"
         },
         "packing_date": {
           "type": "string"
