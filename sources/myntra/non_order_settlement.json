@@ -1,0 +1,26 @@
+
+    {
+      "type": "object",
+      "properties": {
+        "Seller_Name": {
+          "type": "string"
+        },
+        "Settlement_Amount": {
+          "type": "integer"
+        },
+        "Settlement_Type": {
+          "type": "string"
+        },
+        "UTR": {
+          "type": "string"
+        },
+        "Invoice_Ref": {
+          "type": "string"
+        },
+        "Settlement_Date": {
+          "type": "string"
+        },
+        "Settlement_Description": {
+          "type": "string"
+        }
+      }}
